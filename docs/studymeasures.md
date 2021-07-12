@@ -30,7 +30,9 @@ Measures approved in lab-wide protocols, including but not limited to:
 - Positive and Negative Affect Schedule (PANAS)
 - Other standard psychological scales may be administered as well
 
-## Imaging Procedures: All imaging procedures will be approved by CAMRIS. The imaging measures collected in this study will not make use of IV contrast agents. 
+## Imaging Procedures
+All imaging procedures will be approved by CAMRIS. The imaging measures collected in this study will not make use of IV contrast agents. 
+
 3T Imaging Procedures similar to those approved in IRB protocols #828424, #822831:
 - High-resolution Anatomical Images
 - Resting Perfusion Images
