@@ -16,7 +16,7 @@
 title: Mobile Phenomics Documentation
 description: Documentation for Mobile Phenomics Project. 
 baseurl: "/mobilephenomicsdoc" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://PennLINC.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # for testing: http://127.0.0.1:4000
 # for pushing: "http://PennLINC.github.io"
 permalink: pretty
