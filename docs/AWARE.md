@@ -11,7 +11,7 @@ AWARE is a framework dedicated to instrument, infer, log and share mobile contex
 --
  <a href="https://awareframework.com/"> - AWARE framework website</a> 
 
-In short, AWARE is a software suite that handles the collection of mobile data. It was developed by the  <a href="http://www.wwbp.org/"> World Well-Being Project</a> , of which UPenn is a collaborator with Lyle Unghar. If you want to set up a mobile phenotyping project at UPenn, their group is who to reach out to.
+In short, AWARE is a software suite that handles the collection of mobile data. It was developed by the  <a href="http://www.wwbp.org/"> World Well-Being Project</a>, of which UPenn is a collaborator with Lyle Unghar. If you want to set up a mobile phenotyping project at UPenn, their group is who to reach out to.
 
 AWARE presents to participants (users) as a mobile app that can be installed on participants’ devices by sharing a URL. Once installed, the app monitors different data streams depending on what the study has configured.
 
