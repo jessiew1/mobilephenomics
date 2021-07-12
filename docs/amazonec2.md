@@ -10,7 +10,7 @@ In order to collect passive data, some machine in the cloud needs to be running 
 
 Put simply, an EC2 instance is a virtual server in the cloud for running applications on the Amazon Web Services (AWS) infrastructure. This means it can run in the background and be accessed via the internet. For our purposes, the EC2 instance connects to AWARE and manages the running of the AWARE dashboard.
 
-# Set Up
+## Set Up
 To set up an EC2 instance, the lab will need an Amazon Web Services account. This can be set up by the PI (who will likely reach out to IT and the program manager) and once this is configured, you’ll be able to log in to AWS and see a page similar to the one below:
 
 ![](../assets/images/aws_home.png)
