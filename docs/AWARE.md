@@ -40,11 +40,11 @@ For a look at all of the available data streams and descriptions of what they ar
 ## Adding Participant Devices
 Now you have a study, and you know what data you want to collect in it. To add participants to the study, have them download the AWARE_V2 application first. In iOS, it comes up first in the App Store as AWARE_V2:
 
-<img src="../../assets/images/user1.png" alt="User Image 1" width="193" height="130"> 
+<img src="../../assets/images/user1.png" alt="User Image 1" width="193" height="130" class="center"> 
 
 Now, simply share the URL available under `Join study`, or allow users to scan the QR code. Users can find the QR code scanner under `Settings` in the top right hand corner:
 
-<img src="../../assets/images/user2.png" alt="User Image 2" width="193" height="130"> 
+<img src="../../assets/images/user2.png" alt="User Image 2" width="193" height="130" class="center"> 
 
 Whenever a user has a problem on their device, they may just need to re-sync with the server. To do this, they can click the sync arrows in the top right.
 
