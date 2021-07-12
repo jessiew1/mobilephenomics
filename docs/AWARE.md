@@ -31,7 +31,7 @@ From here, the study will be available as below:
 
 ## Configuring Studies
 <<<<<<< HEAD
-At this point, you will likely want to figure out how to add data streams to collect. To add a data stream, simply click the "Edit sampling" button on the right, and click the data type you’d like to collect. Click the toggle button to activate data collection on the sensor for that data type, and manipulate the sampling (how many times per interval the app grabs data). In this example, we’ll collect a couple of different streams, including accelerometer, battery, texts, communication contexts, location, and screen time!
+At this point, you will likely want to figure out how to add data streams to collect. To add a data stream, simply click the `Edit sampling` button on the right, and click the data type you’d like to collect. Click the toggle button to activate data collection on the sensor for that data type, and manipulate the sampling (how many times per interval the app grabs data). In this example, we’ll collect a couple of different streams, including accelerometer, battery, texts, communication contexts, location, and screen time!
 ![](../assets/images/toggle_sensors.png)
 =======
 At this point, you will likely want to figure out how to add data streams to collect. To add a data stream, simply click the `Edit sampling` button on the right, and click the data type you’d like to collect. Click the toggle button to activate data collection on the sensor for that data type, and manipulate the sampling (how many times per interval the app grabs data). In this example, we’ll collect a couple of different streams, including accelerometer, battery, texts, communication contexts, location, and screen time!
