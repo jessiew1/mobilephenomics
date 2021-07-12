@@ -18,46 +18,33 @@ AWARE presents to participants (users) as a mobile app that can be installed on 
 
 ## Studies & The AWARE Dashboard
 Studies are configured by developers in the lab. Once you’ve approved a project with WWBP, they will set up an AWARE _site_ for you. This will be the management home of your project that you can access online — the _AWARE Dashboard_. In our case, the URL we were able to visit for managing studies is https://aware-dev2.wwbp.org/index.php/. Once your site is online, you may sign in with (in our case) a Google account, which will take you to this landing page:
-<img src="assets/aware_site.png" alt="Aware site"> 
+<img src="../assets/aware_site.png" alt="Aware site"> 
 
 ## Creating Study
 To get started, click `Create Study`. You’ll be directed to this page:
-<img src="assets/create_study.png" alt="Create study"> 
+<img src="../assets/create_study.png" alt="Create study"> 
 
 Fill in the relevant details, and for the `Study Database` select `This server` (we’ll talk more about servers in the Amazon EC2 section, but this basically means that whatever _site_ was configured for your use will send its data to the machine created for you).
 
 From here, the study will be available as below:
-<img src="assets/empty_project.png" alt="Empty project"> 
+<img src="../assets/empty_project.png" alt="Empty project"> 
 
 ## Configuring Studies
 
 At this point, you will likely want to figure out how to add data streams to collect. To add a data stream, simply click the `Edit sampling` button on the right, and click the data type you’d like to collect. Click the toggle button to activate data collection on the sensor for that data type, and manipulate the sampling (how many times per interval the app grabs data). In this example, we’ll collect a couple of different streams, including accelerometer, battery, texts, communication contexts, location, and screen time!
-<<<<<<< HEAD
-![](../assets/images/toggle_sensors.png)
+<img src="../assets/toggle_sensors.png" alt="Toggle sensors"> 
 
-=======
-
-<img src="assets/toggle_sensors.png" alt="Toggle Sensors"> 
->>>>>>> develop
 
 For a look at all of the available data streams and descriptions of what they are/do, see <a href="https://awareframework.com/sensors/"> AWARE's sensor documentation</a>.
 
 ## Adding Participant Devices
 Now you have a study, and you know what data you want to collect in it. To add participants to the study, have them download the AWARE_V2 application first. In iOS, it comes up first in the App Store as AWARE_V2:
 
-<<<<<<< HEAD
-![](../assets/images/user1.png)
+<img src="../assets/user1.png" alt="User Image 1"> 
 
 Now, simply share the URL available under `Join study`, or allow users to scan the QR code. Users can find the QR code scanner under `Settings` in the top right hand corner:
 
-![](../assets/images/user2.png)
-=======
-<img src="assets/user1.png" alt="User Image 1"> 
-
-Now, simply share the URL available under `Join study`, or allow users to scan the QR code. Users can find the QR code scanner under `Settings` in the top right hand corner:
-
-<img src="assets/user2.png" alt="User Image 2"> 
->>>>>>> develop
+<img src="../assets/user2.png" alt="User Image 2"> 
 
 Whenever a user has a problem on their device, they may just need to re-sync with the server. To do this, they can click the sync arrows in the top right.
 
