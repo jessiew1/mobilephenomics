@@ -30,18 +30,18 @@ From here, the study will be available as below:
 
 ## Configuring Studies
 At this point, you will likely want to figure out how to add data streams to collect. To add a data stream, simply click the "Edit sampling" button on the right, and click the data type you’d like to collect. Click the toggle button to activate data collection on the sensor for that data type, and manipulate the sampling (how many times per interval the app grabs data). In this example, we’ll collect a couple of different streams, including accelerometer, battery, texts, communication contexts, location, and screen time!
-[](../assets/images/toggle_sensors.png)
+![](../assets/images/toggle_sensors.png)
 
 For a look at all of the available data streams and descriptions of what they are/do, see <a href="https://awareframework.com/sensors/"> AWARE's sensor documentation</a>.
 
 ## Adding Participant Devices
 Now you have a study, and you know what data you want to collect in it. To add participants to the study, have them download the AWARE_V2 application first. In iOS, it comes up first in the App Store as AWARE_V2:
 
-[](../assets/images/user1.png)
+![](../assets/images/user1.png)
 
 Now, simply share the URL available under Join study, or allow users to scan the QR code. Users can find the QR code scanner under Settings in the top right hand corner:
 
-[](../assets/images/user2.png)
+![](../assets/images/user2.png)
 
 Whenever a user has a problem on their device, they may just need to re-sync with the server. To do this, they can click the sync arrows in the top right.
 
