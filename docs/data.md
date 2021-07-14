@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data
+title: Data Types and Scans
 has_children: false
 parent: Study
 has_toc: false
