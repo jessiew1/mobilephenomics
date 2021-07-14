@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  Study Measures
+title: Methods
 has_children: false
+parent: Study
 has_toc: false
-nav_order: 5
-
+nav_order: 2
 ---
 
 # Study Measures

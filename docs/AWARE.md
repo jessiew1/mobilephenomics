@@ -1,9 +1,10 @@
 ---
 layout: default
-title: AWARE framework
+title: AWARE
 has_children: false
+parent: Project Infrastructure Overview
 has_toc: false
-nav_order: 4
+nav_order: 1
 ---
 # The AWARE Framework
 ---

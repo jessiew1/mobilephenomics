@@ -2,8 +2,9 @@
 layout: default
 title: Amazon EC2
 has_children: false
+parent: Project Infrastructure Overview
 has_toc: false
-nav_order: 3
+nav_order: 2
 ---
 # Amazon EC2 Instances
 In order to collect passive data, some machine in the cloud needs to be running constantly and minimally preprocessing it for storage. This is where Amazon’s EC2 product comes in. EC2 stands for _Elastic Compute Cloud_ and is one of Amazon’s many AWS products.
