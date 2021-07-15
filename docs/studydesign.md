@@ -27,7 +27,7 @@ Target: 2000 participants along with parents of minor participants to participat
 - Acute intoxication with alcohol or other substances based on clinical assessment, subject report, or results of laboratory testing
 - For 3T and 7T participants only: contraindications/claustrophobia
 
-# Design
+#  Procedure
 - Participants will perform self-report questionnaires, a neurocognitive battery assessment and both passive and active mobile data collection on the custom-built AWARE App.
 - After consent, participants will be asked to complete a neurocognitive battery online, as well as self-report questionnaires and a computerized adaptive clinical interview.
 - Participants will also be directed to download the AWARE app. There will be 2, 2-week periods of active survey collection 3 times per day, and passive data collection using the AWARE app for 6 months. EMA questions from the app will include questions related to mood, behavior, sleep, or other aspects pertaining to participants’ daily lives.
