@@ -10,6 +10,7 @@ nav_order: 1
 # Recruitment
 Subjects will be recruited via a variety of means, including posted notices on- and off-campus, Penn’s SBSI platform, announcements on the lab website, social media (Twitter, Facebook, Instagram), online electronic newsgroups, text/email/phone or newspaper advertisements,  CHOP/Penn medical record review and through the Brain Behavior Lab’s registry of previous research participants who have consented to be re-contacted about participating in future research, or by clinician referral from physicians within the Penn Medicine/CHOP system. 
 Target: 2000 participants along with parents of minor participants to participate in virtual procedures. Of these, 500 participants will be asked to come in for non-contrast agent MRI procedures.
+
 *Key Inclusion Criteria*:
 - Age: 13-25. 
 - Sex: Males and Females
