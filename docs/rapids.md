@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rapids
+title: RAPIDS
 has_children: false
 parent: Analytics
 has_toc: false
