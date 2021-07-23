@@ -19,7 +19,7 @@ AWARE presents to participants (users) as a mobile app that can be installed on 
 
 ## Studies & The AWARE Dashboard
 Studies are configured by developers in the lab. Once you’ve approved a project with WWBP, they will set up an AWARE _site_ for you. This will be the management home of your project that you can access online — the _AWARE Dashboard_. In our case, the URL we were able to visit for managing studies is https://aware-dev2.wwbp.org/index.php/. Once your site is online, you may sign in with (in our case) a Google account, which will take you to this landing page:
-<img src="/assets/images/aware_site.png" alt="Aware site"> 
+<img src="/mobilephenomics/assets/images/aware_site.png" alt="Aware site"> 
 
 ## Creating Study
 To get started, click `Create Study`. You’ll be directed to this page:
