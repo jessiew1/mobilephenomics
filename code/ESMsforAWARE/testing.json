@@ -1,6 +1,6 @@
 [{"schedule_id":"condition_check_v1",
     "hours":[8],
-    "start_date":"10-28-2021",
+    "start_date":"07-28-2021",
     "end_date":"12-28-2024",
     "expiration":10,
     "randomize":5,
