@@ -1,0 +1,23 @@
+[{"schedule_id":"condition_check_v1",
+    "hours":[8,10,12,14,16],
+    "start_date":"07-28-2021",
+    "end_date":"12-28-2024",
+    "expiration":10,
+    "randomize":5,
+    "notification_title":"Survey",
+    "notification_body":"It's time for your survey again!",
+    "esms":[{"esm": {
+                "esm_type": 4,
+                "esm_title":"ESM Question 1",
+                "esm_instructions":"Right now I feel enthusiastic",
+                "esm_likert_max":100,
+                "esm_likert_max_label":"Not at all",
+                "esm_likert_min_label":"Very much",
+                "esm_likert_step":20,
+                "esm_submit":"Next",
+                "esm_expiration_threshold": 60,
+                "esm_trigger": "bd-q7"
+                }
+             } 
+              ]
+}]
