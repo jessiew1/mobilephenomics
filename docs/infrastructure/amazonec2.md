@@ -17,3 +17,11 @@ To set up an EC2 instance, the lab will need an Amazon Web Services account. Thi
 <img src="/mobilephenomics/assets/images/aws_home.png" alt="AWS Home"> 
 
 Once this is complete, you’ll need to set up an instance. These instances are somewhat like Docker images, in that they can be deployed on individual machines in a containerized way, and they can be shared. Fortunately for us, we were able to have a pre-configured instance _cloned_ to our AWS for us to use. If you don’t have this option, you’ll need to build the instance yourself. There are instructions for how to do that in <a href="https://pennlinc.github.io/MobilePheno_AwareInfra_docs/assets/Aware_Dashboard_Install_Instructions_Ubuntu_18.pdf">this document</a>.
+
+## Accessing
+
+You can access the Amazon EC2 instance using `ssh`
+
+<!--
+#TODO: how to access + navigate the instance
+-->
