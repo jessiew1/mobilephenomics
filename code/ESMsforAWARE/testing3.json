@@ -2,7 +2,7 @@
     "hours":[8,10,12,14,16],
     "start_date":"07-28-2021",
     "end_date":"12-28-2024",
-    "expiration":10,
+    "expiration":45,
     "randomize":0,
     "notification_title":"Survey",
     "notification_body":"It's time for your survey again!",
