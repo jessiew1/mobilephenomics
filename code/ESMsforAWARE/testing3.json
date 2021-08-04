@@ -13,7 +13,7 @@
                 "esm_likert_max":100,
                 "esm_likert_max_label":"Not at all",
                 "esm_likert_min_label":"Very much",
-                "esm_likert_step":1,
+                "esm_likert_step":20,
                 "esm_submit":"Next",
                 "esm_expiration_threshold": 60,
                 "esm_trigger": "bd-q7"
