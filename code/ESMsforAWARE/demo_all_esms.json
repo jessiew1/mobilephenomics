@@ -136,10 +136,17 @@
                             "user_answer": "Yes",
                             "next_esm": {
                                 "esm": {
-                                    "esm_type": 8,
-                                    "esm_title": "Your mood",
-                                    "esm_instructions": "Choose the closest to how you feel right now.",
-                                    "esm_submit": "Thanks!"
+                                    "esm_type": 6,
+                                    "esm_scale_max": 60,
+                                    "esm_scale_min": 10,
+                                    "esm_scale_start": 30,
+                                    "esm_scale_max_label": "60",
+                                    "esm_scale_min_label": "0",
+                                    "esm_scale_step": 5,
+                                    "esm_title": "Scale",
+                                    "esm_instructions": "That's a weird scale...",
+                                    "esm_submit": "OK",
+                                    "esm_trigger": "esm_basic_test_6"
                                 }
                             }
                         },
