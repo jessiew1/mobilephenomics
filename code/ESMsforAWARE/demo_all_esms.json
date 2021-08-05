@@ -27,9 +27,9 @@
                 "esm": {
                     "esm_type":1,
                     "esm_title":"FreeText",
-                    "esm_trigger":"a context",
                     "esm_submit":"OK",
-                    "esm_instructions":"Use this for open ended text input"
+                    "esm_instructions":"Use this for open ended text input",
+                    "esm_trigger": "esm_basic_test_1"
                 }
             },
             {
@@ -38,7 +38,8 @@
                     "esm_radios":["Option 1","Option 2"],
                     "esm_title":"Pick One Option",
                     "esm_instructions":"Pick an option below",
-                    "esm_submit":"Okey dokey!"
+                    "esm_submit":"Okey dokey!",
+                    "esm_trigger": "esm_basic_test_2"
                 }
             },
             {
@@ -47,7 +48,8 @@
                     "esm_checkboxes":["Fizz","Buzz","Other"],
                     "esm_title":"Pick some options",
                     "esm_submit":"OK",
-                    "esm_instructions":"Multiple choice is allowed"
+                    "esm_instructions":"Multiple choice is allowed",
+                    "esm_trigger": "esm_basic_test_3"
                 }
             },
             {
@@ -59,7 +61,8 @@
                     "esm_likert_step":1,
                     "esm_title":"Likert",
                     "esm_instructions":"Rate your outfit",
-                    "esm_submit":"OK"
+                    "esm_submit":"OK",
+                    "esm_trigger": "esm_basic_test_4"
                 }
             },
             {
@@ -67,7 +70,9 @@
                     "esm_type":5,
                     "esm_quick_answers":["Yes","No", "Maybe?"],
                     "esm_instructions":"Did you enjoy?",
-                    "esm_title":"Quick! Answer this!"
+                    "esm_title":"Quick! Answer this!",
+                    "esm_submit":"OK",
+                    "esm_trigger": "esm_basic_test_5"
                 }
             },
             {
@@ -81,7 +86,8 @@
                     "esm_scale_step":10,
                     "esm_title":"Scale",
                     "esm_instructions":"Set the volume",
-                    "esm_submit":"OK"
+                    "esm_submit":"OK",
+                    "esm_trigger": "esm_basic_test_6"
                 }
             },
             {
@@ -89,7 +95,8 @@
                     "esm_type":9,
                     "esm_title":"What's Your Age?",
                     "esm_instructions":"How old are you",
-                    "esm_submit":"OK"
+                    "esm_submit":"OK",
+                    "esm_trigger": "esm_basic_test_7"
                 }
             },
             {
@@ -98,7 +105,8 @@
                     "esm_title":"A website",
                     "esm_instructions":"Look at this!",
                     "esm_submit":"OK",
-                    "esm_url":"https://tenor.com/SCX3.gif"   # string: the URL the embedded browser opens
+                    "esm_url":"https://tenor.com/SCX3.gif",
+                    "esm_trigger": "esm_basic_test_8"
                 }
             },
 
@@ -109,6 +117,7 @@
                     "esm_title":"Let's try a question flow",
                     "esm_instructions":"Pick one to move ahead",
                     "esm_submit":"Okey dokey!",
+                    "esm_trigger": "esm_basic_test_9",
                     "esm_flows": [
 
                         {
@@ -119,7 +128,8 @@
                                         "esm_type":9,
                                         "esm_title":"How much A",
                                         "esm_instructions":"You picked A, so how many?",
-                                        "esm_submit":"alright!"
+                                        "esm_submit":"alright!",
+                                        "esm_trigger": "esm_basic_test_10"
                                     }
                                 }
                             }
@@ -131,9 +141,9 @@
                                 "esm": {
                                     "esm_type":1,
                                     "esm_title":"Option B",
-                                    "esm_trigger":"a context",
                                     "esm_submit":"Thanks!",
-                                    "esm_instructions":"You selected B, how do you feel about that?"
+                                    "esm_instructions":"You selected B, how do you feel about that?",
+                                    "esm_trigger": "esm_basic_test_11"
                                 }
                             }
                         }
