@@ -2,7 +2,7 @@
 layout: default
 title: Amazon EC2
 has_children: false
-parent: Project Infrastructure Overview
+parent: Technical Infrastructure
 has_toc: false
 nav_order: 2
 ---
@@ -20,7 +20,7 @@ Once this is complete, you’ll need to set up an instance. These instances are 
 
 ## Accessing
 
-You can access the Amazon EC2 instance using `ssh`
+You can access the Amazon EC2 instance using `ssh`. 
 
 <!--
 #TODO: how to access + navigate the instance

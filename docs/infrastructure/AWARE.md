@@ -2,7 +2,7 @@
 layout: default
 title: AWARE
 has_children: false
-parent: Project Infrastructure Overview
+parent: Technical Infrastructure
 has_toc: false
 nav_order: 1
 ---
@@ -52,9 +52,4 @@ Whenever a user has a problem on their device, they may just need to re-sync wit
 ## Collecting Active Data
 Once a user has gone through the above, the mobile device will begin collecting passive data at whatever sampling rate you configured. But if you wanted to collect _active_ data (e.g., have users answer a question or respond to a survey), you’ll need to configure an <a href="https://dl.acm.org/doi/10.1145/3123988"> ESM</a>.
 
-Once any number of devices are connected, you’ll notice a change to the bottom of the screen of the AWARE Dashboard. From here, you can configure an ESM to go out to users. See [this section]() on how to configure ESMs
-
-<!--
-#TODO: link between sections
--->
-
+Once any number of devices are connected, you’ll notice a change to the bottom of the screen of the AWARE Dashboard. From here, you can configure an ESM to go out to users. See [this section](/mobilephenomics/docs/infrastructure/code/) on how to configure ESMs, and [this page](/mobilephenomics/docs/study/data/) to learn about different sensors.
