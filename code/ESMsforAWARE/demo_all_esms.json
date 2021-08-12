@@ -3,13 +3,9 @@
         "schedule_id": "workday_esm",
         "hours": [
             9,
-            10,
             11,
-            12,
             13,
-            14,
             15,
-            16,
             17
         ],
         "start_date": "08-01-2021",
@@ -169,16 +165,16 @@
     {
         "schedule_id": "after_hours_esm",
         "hours": [
+            8,
             18,
             19,
-            20,
-            21
+            20
         ],
         "start_date": "08-01-2021",
         "end_date": "08-01-2030",
         "expiration": 30,
         "randomize": 5,
-        "notification_title": "Here's an after hours urvey!",
+        "notification_title": "Here's an after hours survey!",
         "notification_body": "Ugh leave me alone",
         "esms": [
             {
