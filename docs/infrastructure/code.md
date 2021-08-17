@@ -2,7 +2,7 @@
 layout: default
 title: Code
 has_children: false
-parent: Project Infrastructure Overview
+parent: Technical Infrastructure
 has_toc: false
 nav_order: 3
 ---

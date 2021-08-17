@@ -1,0 +1,189 @@
+<mxfile host="65bd71144e">
+    <diagram id="wFI7tpYFOXomQ84BDJb0" name="Page-1">
+        <mxGraphModel dx="971" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="69" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;verticalAlign=bottom;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="-480" width="470" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="-360" width="450" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="57.5" y="-480" width="355" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="-365" width="320" height="185" as="geometry"/>
+                </mxCell>
+                <UserObject label="" tooltip="" id="6">
+                    <mxCell style="group" parent="1" vertex="1" connectable="0">
+                        <mxGeometry x="140" y="-650" width="190" height="130" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="81" value="" style="group" vertex="1" connectable="0" parent="6">
+                    <mxGeometry width="190" height="130" as="geometry"/>
+                </mxCell>
+                <UserObject label="" tooltip="Amazon EC2 is a cloud computing service that hosts the PHP web application for a center's AWARE dashboard. Our EC2 instance is managed by the lab's IT and BA managers.&#10;&#10;Since an EC2 instance is basically a linux server, you can access ours by requesting a user login and using SSH." id="5">
+                    <mxCell style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;" parent="81" vertex="1">
+                        <mxGeometry width="190" height="130" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font style=&quot;font-size: 11px&quot;&gt;Amazon EC2&lt;/font&gt;" tooltip="Amazon EC2 is a cloud computing service that hosts the PHP web application for a center's AWARE dashboard. Our EC2 instance is managed by the lab's IT and BA managers.&#10;&#10;Since an EC2 instance is basically a linux server, you can access ours by requesting a user login and using SSH." id="3">
+                    <mxCell style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;" parent="81" vertex="1">
+                        <mxGeometry x="65.71" y="40" width="54.29" height="80" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font style=&quot;font-size: 18px&quot;&gt;Researcher Dashboard&lt;/font&gt;" tooltip="The AWARE Researcher Dashboard is where researchers can enroll participants, edit the study parameters, and control which sensors and ESMs are enabled.&#10;&#10;It's a PHP app running on Amazon EC2." id="8">
+                    <mxCell style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="390" y="-800" width="440" height="280" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="9" value="Study" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=13;fontColor=#666666;align=left;" parent="8" vertex="1">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="https://aware-dev2.wwbp.org" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=13;fontColor=#666666;align=left;" parent="8" vertex="1">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <UserObject label="LINUX Server" tooltip="EC2 instances are basically LINUX servers in the cloud, meaning you can access them with SSH. This one is both continuously running the PHP application for the AWARE dashboard, and storing the mobile data AWARE collects." id="44">
+                    <mxCell style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.secure_server;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
+                        <mxGeometry x="215.75" y="-462.5" width="38.5" height="70" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="49" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.501;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8" target="47" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="790" y="-670" as="sourcePoint"/>
+                        <mxPoint x="840" y="-720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1.001;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8" target="47" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="789.1199999999999" y="-651.12" as="sourcePoint"/>
+                        <mxPoint x="929.5405845398163" y="-743.3883476483181" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="MySQL Database" tooltip="Data collected from devices on an AWARE study are stored in a MySQL database. With a couple of lines of SQL, you can examine this database yourself, though we prefer to simply extract it and analyze it on CUBIC." id="57">
+                    <mxCell style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" parent="1" vertex="1">
+                        <mxGeometry x="90" y="-329.55" width="100" height="109.1" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" tooltip="Reproducible Analysis Pipeline for Data Streams (RAPIDS) allows you to process smartphone and wearable data to extract and create behavioral features (a.k.a. digital biomarkers), visualize mobile sensor data, and structure your analysis into reproducible workflows." id="22">
+                    <mxCell style="group" parent="1" vertex="1" connectable="0">
+                        <mxGeometry x="780" y="-350" width="80" height="80" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="18" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.gear;labelBackgroundColor=#000000;fontSize=13;" parent="22" vertex="1">
+                    <mxGeometry x="47.05882352941176" y="47.05882352941176" width="28.23529411764706" height="28.23529411764706" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="group" parent="22" vertex="1" connectable="0">
+                    <mxGeometry width="64" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.gear;labelBackgroundColor=#000000;fontSize=13;" parent="21" vertex="1">
+                    <mxGeometry x="4.705882352941177" y="47.05882352941176" width="28.23529411764706" height="28.23529411764706" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.gear;labelBackgroundColor=#000000;fontSize=13;" parent="21" vertex="1">
+                    <mxGeometry width="40.33613445378152" height="40.33613445378152" as="geometry"/>
+                </mxCell>
+                <UserObject label="&#10;RAPIDS" tooltip="Reproducible Analysis Pipeline for Data Streams (RAPIDS) allows you to process smartphone and wearable data to extract and create behavioral features (a.k.a. digital biomarkers), visualize mobile sensor data, and structure your analysis into reproducible workflows." id="16">
+                    <mxCell style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;imageBackground=#000000;fontSize=10;" parent="21" vertex="1">
+                        <mxGeometry x="18.823529411764707" y="20.705882352941178" width="38.72268907563026" height="38.72268907563026" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="CUBIC" tooltip="We do all of our preprocessing and analysis on CUBIC. If you need access to the project and its data on CUBIC, see https://pennlinc.github.io/docs/cubic" id="45">
+                    <mxCell style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.secure_server;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
+                        <mxGeometry x="797.59" y="-462.5" width="44.83" height="81.5" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Convert.sh" tooltip="This code extracts sensor data from MySQL and converts it to CSV for export." id="59">
+                    <mxCell style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file" parent="1" vertex="1">
+                        <mxGeometry x="210.5" y="-350" width="49" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Sensor.csv&lt;br&gt;" tooltip="Extracted raw data is one-file-per-sensor" id="61">
+                    <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Files.svg;" parent="1" vertex="1">
+                        <mxGeometry x="280" y="-323.27" width="94" height="102.82" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="63" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=-0.007;exitY=0.364;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="-700" as="sourcePoint"/>
+                        <mxPoint x="240" y="-650" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="235" y="-520" as="sourcePoint"/>
+                        <mxPoint x="235" y="-484" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Features.csv" tooltip="RAPIDS outputs a number of behavioral feature tables for each sensor, ready for analysis!" id="71">
+                    <mxCell style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.csv_file;" vertex="1" parent="1">
+                        <mxGeometry x="920" y="-311.86" width="110" height="80" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="73" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=18.571428571428573;endSize=6.636893203883495;width=18.640776699029125;gradientDirection=east;gradientColor=#3399FF;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="-253.95" as="sourcePoint"/>
+                        <mxPoint x="270" y="-253.95" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="230" y="-254"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=18.571428571428573;endSize=6.636893203883495;width=18.640776699029125;gradientDirection=east;gradientColor=#3399FF;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="750" y="-250" as="sourcePoint"/>
+                        <mxPoint x="900" y="-250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=18.571428571428573;endSize=6.636893203883495;width=18.640776699029125;gradientDirection=east;gradientColor=#3399FF;fillColor=#ffffff;startArrow=block;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="-250" as="sourcePoint"/>
+                        <mxPoint x="585" y="-250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="-250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Fetch.sh" tooltip="We have a script on CUBIC that periodically fetches data from the EC2 instance and copies it to CUBIC -- this is both to move analysis off of the EC2 and to free up its disk space." id="67">
+                    <mxCell style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file" vertex="1" parent="1">
+                        <mxGeometry x="470" y="-355" width="58.8" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Sensor.csv&lt;br&gt;" tooltip="Raw data, one file per sensor" id="76">
+                    <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+                        <mxGeometry x="620" y="-323.27" width="94" height="102.82" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Dashboard code" tooltip="The code underlying the AWARE dashboard can be accessed here, though we don't recommend tinkering with it!" id="80">
+                    <mxCell style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.code_file;pointerEvents=1;labelBackgroundColor=none;fontSize=10;" vertex="1" parent="1">
+                        <mxGeometry x="100" y="-434" width="24.5" height="27" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="82" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="890" y="-730" width="150" height="140" as="geometry"/>
+                </mxCell>
+                <UserObject label="" tooltip="Participants collecting mobile data in situ and responding to ESM surveys" id="47">
+                    <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="82" vertex="1">
+                        <mxGeometry width="150" height="140" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" tooltip="Participants collecting mobile data in situ and responding to ESM surveys" id="23">
+                    <mxCell style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.phone;labelBackgroundColor=#000000;fontSize=13;" parent="82" vertex="1">
+                        <mxGeometry x="40.5" y="20" width="29.5" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" tooltip="Participants collecting mobile data in situ and responding to ESM surveys" id="24">
+                    <mxCell style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_iphone_standalone;labelBackgroundColor=#000000;fontSize=13;" parent="82" vertex="1">
+                        <mxGeometry x="60" y="84" width="25" height="42" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" tooltip="Participants collecting mobile data in situ and responding to ESM surveys" id="25">
+                    <mxCell style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_android_standalone;labelBackgroundColor=#000000;fontSize=13;" parent="82" vertex="1">
+                        <mxGeometry x="95" y="40" width="24" height="44" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

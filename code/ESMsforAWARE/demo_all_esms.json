@@ -1,20 +1,12 @@
 [
     {
-        "schedule_id": "Demo_all_esms",
+        "schedule_id": "workday_esm",
         "hours": [
             9,
-            10,
             11,
-            12,
             13,
-            14,
             15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21
+            17
         ],
         "start_date": "08-01-2021",
         "end_date": "08-01-2030",
@@ -136,10 +128,17 @@
                             "user_answer": "Yes",
                             "next_esm": {
                                 "esm": {
-                                    "esm_type": 8,
-                                    "esm_title": "Your mood",
-                                    "esm_instructions": "Choose the closest to how you feel right now.",
-                                    "esm_submit": "Thanks!"
+                                    "esm_type": 6,
+                                    "esm_scale_max": 60,
+                                    "esm_scale_min": 10,
+                                    "esm_scale_start": 30,
+                                    "esm_scale_max_label": "60",
+                                    "esm_scale_min_label": "0",
+                                    "esm_scale_step": 5,
+                                    "esm_title": "Scale",
+                                    "esm_instructions": "That's a weird scale...",
+                                    "esm_submit": "OK",
+                                    "esm_trigger": "esm_basic_test_6"
                                 }
                             }
                         },
@@ -159,6 +158,32 @@
                             }
                         }
                     ]
+                }
+            }
+        ]
+    },
+    {
+        "schedule_id": "after_hours_esm",
+        "hours": [
+            8,
+            18,
+            19,
+            20
+        ],
+        "start_date": "08-01-2021",
+        "end_date": "08-01-2030",
+        "expiration": 30,
+        "randomize": 5,
+        "notification_title": "Here's an after hours survey!",
+        "notification_body": "Ugh leave me alone",
+        "esms": [
+            {
+                "esm": {
+                    "esm_type": 1,
+                    "esm_title": "FreeText",
+                    "esm_submit": "OK",
+                    "esm_instructions": "Thanks for checking in after hours!",
+                    "esm_trigger": "esm_basic_test_1"
                 }
             }
         ]
