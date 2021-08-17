@@ -320,7 +320,7 @@
     {"esm": {
       "esm_type": 1,
       "esm_title":"ESM Sleep 5",
-      "esm_instructions":"What time did you wake up?",
+      "esm_instructions":"How long did these awakenings last?",
       "esm_submit":"Next",
       "esm_expiration_threshold": 60,
       "esm_trigger": "ESM24"
@@ -329,6 +329,15 @@
     {"esm": {
       "esm_type": 1,
       "esm_title":"ESM Sleep 6",
+      "esm_instructions":"What time was your final awakening?",
+      "esm_submit":"Next",
+      "esm_expiration_threshold": 60,
+      "esm_trigger": "ESM24"
+       }  
+    },
+    {"esm": {
+      "esm_type": 1,
+      "esm_title":"ESM Sleep 7",
       "esm_instructions":"What time did you get out of bed for the day?",
       "esm_submit":"Next",
       "esm_expiration_threshold": 60,
@@ -337,7 +346,7 @@
     },
     {"esm": {
       "esm_type": 1,
-      "esm_title":"ESM Sleep 7",
+      "esm_title":"ESM Sleep 8",
       "esm_instructions":"About how many hours did you actually sleep?",
       "esm_submit":"Next",
       "esm_expiration_threshold": 60,
@@ -350,7 +359,7 @@
       "esm_likert_max_label": "Very Good",
       "esm_likert_min_label": "Very Poor",
       "esm_likert_step": 1,
-      "esm_title": "ESM Sleep 8",
+      "esm_title": "ESM Sleep 9",
       "esm_instructions": "How would you rate the quality of your sleep?",
       "esm_submit": "Next",
       "esm_trigger": "ESM27"
@@ -362,7 +371,7 @@
        "esm_likert_max_label": "Fully Refreshed",
        "esm_likert_min_label": "Not at All Refreshed",
        "esm_likert_step": 1,
-       "esm_title": "ESM Sleep 9",
+       "esm_title": "ESM Sleep 10",
        "esm_instructions": "How refreshed did you feel when you woke up?",
        "esm_submit": "Next",
        "esm_trigger": "ESM28"
@@ -370,7 +379,7 @@
     },
     {"esm": {
       "esm_type": 3,
-      "esm_title":"ESM Sleep 10",
+      "esm_title":"ESM Sleep 11",
       "esm_instructions":"Did you take sleeping pills or anything else to help you sleep last night?",
       "esm_checkboxes":["Yes","No"],
       "esm_submit":"Next",
