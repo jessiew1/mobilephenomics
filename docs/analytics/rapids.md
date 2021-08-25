@@ -6,7 +6,7 @@ parent: Analytics
 has_toc: false
 nav_order: 1
 ---
-
+# RAPIDS Framework
 ---
 "Reproducible Analysis Pipeline for Data Streams (RAPIDS) allows you to process smartphone and wearable data to extract and create behavioral features (a.k.a. digital biomarkers), visualize mobile sensor data, and structure your analysis into reproducible workflows.
 

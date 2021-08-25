@@ -6,8 +6,8 @@ parent: Study
 has_toc: false
 nav_order: 1
 ---
-
-# Recruitment
+# Study Design
+## Recruitment
 Subjects will be recruited via a variety of means, including posted notices on- and off-campus, Penn’s SBSI platform, announcements on the lab website, social media (Twitter, Facebook, Instagram), online electronic newsgroups, text/email/phone or newspaper advertisements,  CHOP/Penn medical record review and through the Brain Behavior Lab’s registry of previous research participants who have consented to be re-contacted about participating in future research, or by clinician referral from physicians within the Penn Medicine/CHOP system. 
 Target: 2000 participants along with parents of minor participants to participate in virtual procedures. Of these, 500 participants will be asked to come in for non-contrast agent MRI procedures.
 
@@ -28,14 +28,14 @@ Target: 2000 participants along with parents of minor participants to participat
 - Acute intoxication with alcohol or other substances based on clinical assessment, subject report, or results of laboratory testing
 - For 3T and 7T participants only: contraindications/claustrophobia
 
-#  Procedure
+##  Procedure
 - Participants will perform self-report questionnaires, a neurocognitive battery assessment and both passive and active mobile data collection on the custom-built AWARE App.
 - After consent, participants will be asked to complete a neurocognitive battery online, as well as self-report questionnaires and a computerized adaptive clinical interview.
 - Participants will also be directed to download the AWARE app. There will be 2, 2-week periods of active survey collection 3 times per day, and passive data collection using the AWARE app for 6 months. EMA questions from the app will include questions related to mood, behavior, sleep, or other aspects pertaining to participants’ daily lives.
 - In addition to survey data, AWARE will passively collect information pertaining to accelerometer data, GPS data, phone call and text messaging meta-data, all key-stroke data (with the exception of passwords), and phone/screen usage data. 
 - A subsample of (500) participants will be brought in for imaging procedures.  Imaging visits will last approximately 2-3  hours and will be conducted at Penn/CHOP. 
 
-# Compensation
+## Compensation
 _Participants will be reimbursed for travel (transportation and parking) expenses incurred on scan day._
 _All participants will be paid virtually using Venmo or PayPal applications._
 -  Payment for virtual participation: 
