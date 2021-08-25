@@ -16,5 +16,5 @@ RAPIDS is open source, documented, multi-platform, modular, tested, and reproduc
 ---
 
 
-You can see some of our sample configuration files <a href="https://www.rapids.science/1.5/">here</a>!
+You can see some of our sample configuration files <a href="https://github.com/PennLINC/mobilephenomics/tree/master/code">here</a>!
 
