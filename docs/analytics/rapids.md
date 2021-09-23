@@ -16,5 +16,5 @@ RAPIDS is open source, documented, multi-platform, modular, tested, and reproduc
 ---
 
 
-You can see some of our sample configuration files <a href="https://github.com/PennLINC/mobilephenomics/tree/master/code/RAPIDS">here</a>!
+You can see some of our sample configuration files <a href="https://github.com/PennLINC/mobilephenomics/tree/master/code/RAPIDS">here</a>! Information about the features we have chosen and why is available [here](/mobilephenomics/assets/documents/RAPIDS_features.pdf).
 

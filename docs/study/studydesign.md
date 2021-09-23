@@ -31,17 +31,19 @@ Target: 2000 participants along with parents of minor participants to participat
 ##  Procedure
 - Participants will perform self-report questionnaires, a neurocognitive battery assessment and both passive and active mobile data collection on the custom-built AWARE App.
 - After consent, participants will be asked to complete a neurocognitive battery online, as well as self-report questionnaires and a computerized adaptive clinical interview.
-- Participants will also be directed to download the AWARE app. There will be 2, 2-week periods of active survey collection 3 times per day, and passive data collection using the AWARE app for 6 months. EMA questions from the app will include questions related to mood, behavior, sleep, or other aspects pertaining to participants’ daily lives.
+- Participants will also be directed to download the AWARE app. There will be 2, 2-week periods of active survey collection 4 times per day, and passive data collection using the AWARE app for 6 months. EMA questions from the app will include questions related to mood, behavior, sleep, or other aspects pertaining to participants’ daily lives.
 - In addition to survey data, AWARE will passively collect information pertaining to accelerometer data, GPS data, phone call and text messaging meta-data, all key-stroke data (with the exception of passwords), and phone/screen usage data. 
 - A subsample of (500) participants will be brought in for imaging procedures.  Imaging visits will last approximately 2-3  hours and will be conducted at Penn/CHOP. 
 
-## Compensation
+## Compensation 
 _Participants will be reimbursed for travel (transportation and parking) expenses incurred on scan day._
 _All participants will be paid virtually using Venmo or PayPal applications._
 -  Payment for virtual participation: 
-    - AWARE surveys:Subjects will receive $1 per survey they complete during each of the 2 weeks, with a $3 bonus for completing more than 75% of the surveys (up to $24/week.) Subjects will be paid $3 for each month of passive data collection (detailed below) for 6 months (up to $18).
+    - AWARE surveys:Subjects will receive $1 per survey they complete during each of the 2 weeks, with a $3 bonus for completing more than 75% of the surveys (up to $31/week.) Subjects will be paid $3 for each month of passive data collection (detailed below) for 6 months (up to $18).
     - Computerized Neurocognitive Battery (1 hour): Subjects performing cognitive testing with the standard Computerized Neurocognitive Battery (CNB) applied routinely in the Brain Behavior Laboratory will be paid $20.
     - Self-Report Measures: (1 hour): Subjects will be compensated $10 for completion of proposed surveys assessments. 
     - **Total compensation possible: $144 over 6 months**
 - Assessments of Decision-making, Reward, Motivation, and Sociability  (1 hour): $40
 - Magnetic Resonance Imaging (1 hour): $60
+    
+More information about payment structure and decisions can be found [here](/mobilephenomics/assets/documents/payment_structure.pdf)!
