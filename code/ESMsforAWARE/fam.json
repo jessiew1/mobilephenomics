@@ -1,0 +1,69 @@
+[{"schedule_id":"condition_check_v1",
+    "hours":[10,12,14,16],
+    "start_date":"07-28-2021",
+    "end_date":"12-28-2024",
+    "expiration":10,
+    "randomize":5,
+    "notification_title":"Survey",
+    "notification_body":"It's time for your survey again!",
+    "esms":[{"esm": {
+        "esm_type": 4,
+        "esm_likert_max":5,
+        "esm_likert_max_label": "Not At All",
+        "esm_likert_min_label": "Very Much",
+        "esm_likert_step": 1,
+        "esm_title": "ESM Fam Question 1",
+        "esm_instructions": "Yesterday, family members really helped and supported one another.",
+        "esm_submit": "Next",
+        "esm_trigger": "ESM1"
+                  }
+               },
+               {"esm": {
+                "esm_type": 4,
+                "esm_likert_max":5,
+                "esm_likert_max_label": "Not At All",
+                "esm_likert_min_label": "Very Much",
+                "esm_likert_step": 1,
+                "esm_title": "ESM Fam Question 2",
+                "esm_instructions": "Yesterday, there was a feeling of togetherness in our family.",
+                "esm_submit": "Next",
+                "esm_trigger": "ESM2"
+                 }
+               },
+               {"esm": {
+                "esm_type": 4,
+                "esm_likert_max":5,
+                "esm_likert_max_label": "Not At All",
+                "esm_likert_min_label": "Very Much",
+                "esm_likert_step": 1,
+                "esm_title": "ESM Fam Question 3",
+                "esm_instructions": "Yesterday, family members really backed each other up.",
+                "esm_submit": "Next",
+                "esm_trigger": "ESM3"
+                }
+              },
+              {"esm": {
+                "esm_type": 4,
+                "esm_likert_max":5,
+                "esm_likert_max_label": "Not At All",
+                "esm_likert_min_label": "Very Much",
+                "esm_likert_step": 1,
+                "esm_title": "ESM Fam Question 4",
+                "esm_instructions": "Yesterday, family members criticized one another.",
+                "esm_submit": "Next",
+                "esm_trigger": "ESM4"
+                 }
+              },
+              {"esm": {
+                "esm_type": 4,
+                "esm_likert_max":5,
+                "esm_likert_max_label": "Not At All",
+                "esm_likert_min_label": "Very Much",
+                "esm_likert_step": 1,
+                "esm_title": "ESM Fam Question 5",
+                "esm_instructions": "Yesterday, family members fought.",
+                "esm_submit": "Next",
+                "esm_trigger": "ESM5"
+                 }  
+                }]
+}]
