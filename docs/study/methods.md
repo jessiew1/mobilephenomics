@@ -34,11 +34,11 @@ Measures approved in lab-wide protocols, including but not limited to:
 All imaging procedures will be approved by CAMRIS. The imaging measures collected in this study will not make use of IV contrast agents. 
 
 3T Imaging Procedures similar to those approved in IRB protocols #828424, #822831:
-- High-resolution Anatomical Images
-- Resting Perfusion Images
-- Functional Images
-- Diffusion Images
-- Other experimental imaging sequences that may not be FDA-approved but are considered non-significant risks
+- High-resolution Anatomical Images (ABCD T1)
+- Diffusion Images (ABCD DWI)
+- Resting Perfusion Images (V21 ASL, labeling plane 4 cm below the base of the cerebellum for adults)
+- Functional Images (ME-BOLD)
+- Quantitative Susceptibility Mapping (QSM)
 
 7T Imaging Procedures similar to those approved in IRB protocol #825834:
 - Magnetization prepared rapid gradient echo (MPRAGE) resulting in a T1-weighted contrast image 
