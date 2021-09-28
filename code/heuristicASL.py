@@ -131,7 +131,7 @@ MetadataExtras = {
     }
 }
 #ADD IN LABELLING DURATION AND ACQUISITION VOXEL SIZE, AS WELL AS TOTAL NUMBER OF ACQUIRED PAIRS
-
+# is total number of pairs 2325?
 def AttachToSession():
 
     NUM_VOLUMES=40 # CHECK LATER
