@@ -179,11 +179,10 @@ IntendedFor = {
 #         '{session}/func/sub-{subject}_{session}_task-restbold_run-2_bold.nii.gz',
 #         '{session}/func/sub-{subject}_{session}_task-fracback_acq-singleband_bold.nii.gz' 
      m0: [
-        '{session}/func/sub-{subject}/{session}/perf/sub-{subject}_{session}_asl.nii.gz',
+        'sub-{subject}/ses-{session}/perf/sub-{subject}_ses-{session}_asl.nii.gz',
     ]
 }
-
-
+### fix m0 intended path
 
 # #ASLmetadata:
 
