@@ -166,6 +166,9 @@ IntendedFor = {
         '{session}/func/sub-{subject}_{session}_task-restbold_run-1_bold.nii.gz',
         '{session}/func/sub-{subject}_{session}_task-restbold_run-2_bold.nii.gz',
         '{session}/func/sub-{subject}_{session}_task-fracback_acq-singleband_bold.nii.gz'
+    ],    
+     m0: [
+        '{session}/func/sub-{subject}/{session}/perf/sub-{subject}_{session}_asl.nii.gz',
     ]
 }
 # CHANGE PATH LATER
@@ -188,6 +191,8 @@ MetadataExtras = {
 }
 #ADD IN LABELLING DURATION AND ACQUISITION VOXEL SIZE, AS WELL AS TOTAL NUMBER OF ACQUIRED PAIRS
 # is total number of pairs 2325?
+# add in M0 data: EchoTime, RepetitionTimePreparation, and FlipAngle in case LookLocker is true.
+
 def AttachToSession():
 
     NUM_VOLUMES=40 # CHECK LATER
