@@ -166,12 +166,12 @@ IntendedFor = {
         '{session}/func/sub-{subject}_{session}_task-restbold_run-1_bold.nii.gz',
         '{session}/func/sub-{subject}_{session}_task-restbold_run-2_bold.nii.gz',
         '{session}/func/sub-{subject}_{session}_task-fracback_acq-singleband_bold.nii.gz'
-    ],    
-     m0: [
-        '{session}/func/sub-{subject}/{session}/perf/sub-{subject}_{session}_asl.nii.gz',
-    ]
+    ]    
+    #  m0: [
+    #     '{session}/func/sub-{subject}/{session}/perf/sub-{subject}_{session}_m0.nii.gz',
+    # ]
 }
-# CHANGE PATH LATER
+
 
 
 #ASLmetadata:
@@ -208,3 +208,6 @@ def AttachToSession():
     }
 
     return output_file
+
+
+    #metadata to add in and source? intended for for m0? .json files from metadata?
