@@ -308,7 +308,7 @@
      {"esm": {
        "esm_type": 3,
        "esm_title":"ESM Question 23",
-       "esm_instructions":"Did you consume cannabis yesterday?",
+       "esm_instructions":"Did you consume cannabis/weed/marijuana yesterday?",
        "esm_checkboxes":["Yes","No"],
        "esm_submit":"Next",
        "esm_expiration_threshold": 60,
