@@ -4,7 +4,7 @@ title: Methods
 has_children: false
 parent: Study
 has_toc: false
-nav_order: 2
+nav_order: 5
 ---
 
 # Study Measures

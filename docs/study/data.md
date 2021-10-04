@@ -4,7 +4,7 @@ title: Data Types and Scans
 has_children: false
 parent: Study
 has_toc: false
-nav_order: 3
+nav_order: 4
 ---
 
 # What Data Do We Collect?
