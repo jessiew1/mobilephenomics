@@ -195,23 +195,26 @@ MetadataExtras = {
         "PCASLType":"balanced",
         "TotalAcquiredPairs":8,
         "LabelingDuration":"",
-        "RepetitionTime":4250.0,
+        "RepetitionTime":4.25,
+        "RepetitionTimePreparation": 4.25,
         "VascularCrushing": False,
         "AcquisitionVoxelSize": [2.5, 2.5, 2.5]    
-    }
+    },
+    m0 : {"AcquisitionVoxelSize": [2.5, 2.5, 2.5],
+          "RepetitionTimePreparation": 4.25}
 }
-# ADD IN LABELLING DURATION AND ACQUISITION VOXEL SIZE
+
 
 def AttachToSession():
 
-    NUM_VOLUMES=16 # CHECK LATER
+    NUM_VOLUMES = 8 
     data = ['label', 'control'] * NUM_VOLUMES
     data = '\n'.join(data)
     data = 'volume_type\n' + data # the data is now a string; perfect!
 
     output_file = {
 
-      'name': '{session}/perf/{subject}_{session}_aslcontext.tsv',
+      'name': '{subject}/{session}/perf/{subject}_{session}_aslcontext.tsv',
       'data': data,
       'type': 'text/tab-separated-values'
     }
