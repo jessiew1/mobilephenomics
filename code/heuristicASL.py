@@ -50,17 +50,17 @@ def create_key(template, outtype=('nii.gz',), annotation_classes=None):
 # # ABCD_rest = create_key('sub-{subject}/ses-{session}/func/sub-{subject}_ses-{session}_task-restbold_run-{item}_bold')
 # # the new runs that have to be curated in separate acquisitions
 func_rest_run_1 = create_key(
-    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-restbold_run-1_echo-{item}_bold')
+    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_run-1_echo-{item}_bold')
 func_rest_run_2 = create_key(
-    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-restbold_run-2_echo-{item}_bold')
+    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_run-2_echo-{item}_bold')
 func_rest_run_3 = create_key(
-    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-restbold_run-3_echo-{item}_bold')
+    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_run-3_echo-{item}_bold')
 asl = create_key(
    'sub-{subject}/{session}/perf/sub-{subject}_{session}_asl')
 # # asl_dicomref = create_key(
 # #    'sub-{subject}/{session}/perf/sub-{subject}_{session}_acq-ref_asl')
 m0 = create_key(
-   'sub-{subject}/{session}/perf/sub-{subject}_{session}_m0')
+   'sub-{subject}/{session}/perf/sub-{subject}_{session}_m0scan')
 # mean_perf = create_key(
 #    'sub-{subject}/{session}/perf/sub-{subject}_{session}_mean-perfusion')
 
@@ -190,12 +190,14 @@ MetadataExtras = {
     asl: {
         "ArterialSpinLabelingType": "PCASL",
         "PostLabelingDelay": 1.8,
-        "BackgroundSuppression": "FALSE",
-        "M0Type":"separate",
+        "BackgroundSuppression": False,
+        "M0Type": "Separate",
         "PCASLType":"balanced",
-        "Labeling":"",
         "TotalAcquiredPairs":8,
-        "VascularCrushing": "FALSE"    
+        "LabelingDuration":"",
+        "RepetitionTime":4250.0,
+        "VascularCrushing": False,
+        "AcquisitionVoxelSize": [2.5, 2.5, 2.5]    
     }
 }
 # ADD IN LABELLING DURATION AND ACQUISITION VOXEL SIZE
@@ -209,7 +211,7 @@ def AttachToSession():
 
     output_file = {
 
-      'name': '{subject}_{session}_aslcontext.tsv',
+      'name': '{session}/perf/{subject}_{session}_aslcontext.tsv',
       'data': data,
       'type': 'text/tab-separated-values'
     }
