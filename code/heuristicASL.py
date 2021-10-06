@@ -9,8 +9,8 @@ def create_key(template, outtype=('nii.gz',), annotation_classes=None):
     return template, outtype, annotation_classes
 
 # Create Keys
-t1w = create_key(
-   'sub-{subject}/{session}/anat/sub-{subject}_{session}_T1w')
+#t1w = create_key(
+   #'sub-{subject}/{session}/anat/sub-{subject}_{session}_T1w')
 # t2w = create_key(
 #    'sub-{subject}/{session}/anat/sub-{subject}_{session}_T2w')
 # dwi = create_key(
@@ -50,11 +50,11 @@ t1w = create_key(
 # # ABCD_rest = create_key('sub-{subject}/ses-{session}/func/sub-{subject}_ses-{session}_task-restbold_run-{item}_bold')
 # # the new runs that have to be curated in separate acquisitions
 func_rest_run_1 = create_key(
-    'sub-{subject}/ses-{session}/func/sub-{subject}_ses-{session}_task-restbold_run-1_echo-{item}_bold')
+    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-restbold_run-1_echo-{item}_bold')
 func_rest_run_2 = create_key(
-    'sub-{subject}/ses-{session}/func/sub-{subject}_ses-{session}_task-restbold_run-2_echo-{item}_bold')
+    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-restbold_run-2_echo-{item}_bold')
 func_rest_run_3 = create_key(
-    'sub-{subject}/ses-{session}/func/sub-{subject}_ses-{session}_task-restbold_run-3_echo-{item}_bold')
+    'sub-{subject}/{session}/func/sub-{subject}_{session}_task-restbold_run-3_echo-{item}_bold')
 asl = create_key(
    'sub-{subject}/{session}/perf/sub-{subject}_{session}_asl')
 # # asl_dicomref = create_key(
@@ -69,7 +69,7 @@ m0 = create_key(
 def infotodict(seqinfo):
     last_run = len(seqinfo)
 
-    info = {t1w:[], func_rest_run_2: [], func_rest_run_3: [], func_rest_run_1: [], m0: [], asl: []}#t2w:[], dwi:[], rest_mb:[],
+    info = {func_rest_run_2: [], func_rest_run_3: [], func_rest_run_1: [], m0: [], asl: []}#t2w:[], dwi:[], rest_mb:[],
             # m0:[], func_rest_run_1: [], func_rest_run_2: [],
             #   asl: [],  #qsm_mag_1: [], qsm_mag_2: [], qsm_mag_3: [],
             # #qsm_mag_4: [], qsm_phase_1: [], qsm_phase_2: [], qsm_phase_3: [], qsm_phase_4: [],
@@ -179,7 +179,7 @@ IntendedFor = {
 #         '{session}/func/sub-{subject}_{session}_task-restbold_run-2_bold.nii.gz',
 #         '{session}/func/sub-{subject}_{session}_task-fracback_acq-singleband_bold.nii.gz' 
      m0: [
-        '{session}/perf/sub-{subject}_ses-{session}_asl.nii.gz',
+        '{session}/perf/sub-{subject}_{session}_asl.nii.gz',
     ]
 }
 
