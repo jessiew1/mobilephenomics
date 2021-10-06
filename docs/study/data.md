@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Types and Scans
+title: Sensor Data
 has_children: false
 parent: Study
 has_toc: false
