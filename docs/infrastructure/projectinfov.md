@@ -15,8 +15,8 @@ The solution for this project was initially developed by <a href="http://www.wwb
 
 The components are as follows:
 
-1. An Amazon EC2 instance
-2. The AWARE Framework PHP app (running on the instance)
+1. A running server provided by PMACS
+2. The AWARE Framework PHP app (running on the server)
 3. Your cluster for data analysis with RAPIDS
 
 Here's a schematic of the project's technical infrastructure; click and hover over elements to learn more!
