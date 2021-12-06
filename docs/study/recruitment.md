@@ -11,18 +11,19 @@ Subjects will be recruited via a variety of means, including posted notices on- 
 Target: 2000 participants along with parents of minor participants to participate in virtual procedures. Of these, 500 participants will be asked to come in for non-contrast agent MRI procedures.
 
 *Key Inclusion Criteria*:
-- Age: 13-25. 
+- Age: 13-25. This age range allows us to focus on the critical period of adolescence and young adulthood. 
 - Sex: Males and Females
-- Proficiency in English
-    - Mood and anxiety group: Mood and anxiety group must demonstrate evidence of a mood or anxiety disorder (All ICD codes encompassed by mood/anxiety disorders in DSM (excluding Bipolar Disorder I & II), Borderline personality disorder, Clinically significant affective instability from clinician referrals, Treatment with a SSRI, Elevated PHQ-9 scores administered during standard health system screening.)
-    - Typically Developing Group: No current or documented history DSM IV axis I or II diagnosis, or use of psychoactive medications. 
+- For MRI studies, women of child bearing potential must verbally attest that they are not pregnant at each visit 
+- Proficiency in English, as study assessments and tasks are designed for English speakers
+- Able to understand study procedures and agreeing to participate by giving written informed consent
+
+
 
 *Key Exclusion Criteria*:
-- Significant medical or neurological illness that may increase risk.
-- Pregnancy
+- Significant medical or neurological illness that in the PI’s judgment may increase risks of the study, significantly affects brain function or otherwise impedes participation.
+- Pregnancy. Although there are no known risks related to MRI on pregnant women or a fetus, there is a possibility of yet undiscovered pregnancy related risks. Since there is no possible benefit from participating in this protocol for a pregnant woman, we will exclude pregnant women. As in accordance with current guidelines from CAMRIS, we will assess pregnancy by verbal attestation from participants that they are or are not pregnant
 - Any history of pervasive developmental disorder or intellectual disability
 - Documented history of a psychotic disorder, bipolar disorder, or clinically significant current substance misuse 
 - Non-psychiatric medical disorders that may impact brain function or visual acuity
 - Lack of a mobile device with capabilities to complete study procedures
 - Acute intoxication with alcohol or other substances based on clinical assessment, subject report, or results of laboratory testing
-- For 3T and 7T participants only: contraindications/claustrophobia

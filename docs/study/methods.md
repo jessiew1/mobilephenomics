@@ -39,6 +39,7 @@ All imaging procedures will be approved by CAMRIS. The imaging measures collecte
 - Resting Perfusion Images (V21 ASL, labeling plane 4 cm below the base of the cerebellum for adults)
 - Functional Images (ME-BOLD)
 - Quantitative Susceptibility Mapping (QSM)
+- Other experimental imaging sequences that may not be FDA-approved but are considered non-significant risks
 
 7T Imaging Procedures similar to those approved in IRB protocol #825834:
 - Magnetization prepared rapid gradient echo (MPRAGE) resulting in a T1-weighted contrast image 
