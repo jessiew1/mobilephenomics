@@ -53,10 +53,19 @@ def infotodict(seqinfo):
 # intendedfor's
 IntendedFor = {
     fmap_ap_bold: [
-        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-{item}_bold'
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-1_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-2_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-3_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-4_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-5_bold'
+
     ],
     fmap_pa_bold: [
-        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-{item}_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-1_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-2_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-3_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-4_bold',
+        'sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_acq-multiband_echo-5_bold',
     ]
 }
 
