@@ -84,7 +84,7 @@ def infotodict(seqinfo):
     for s in seqinfo:
         protocol=s.protocol_name.lower()
         series_description=s.series_description.lower()
-        if "t1w" in protocol and "vnav" not in series_description:
+        if "t1w" in protocol and "vnav" not in series_description and "setter" not in series_description:
             get_latest_series(t1w, s)
         elif "abcd_t1w_mpr_vnav" in protocol and "setter" not in series_description:
             get_latest_series(t1w, s)
