@@ -72,9 +72,9 @@ IntendedFor = {
 
 # #ASLmetadata:
 
-# MetadataExtras = {
+MetadataExtras = {
 
-    # asl: {
+     fmap_pa_bold: {"PhaseEncodingDirection": "j"
     #     "ArterialSpinLabelingType": "PCASL",
     #     "PostLabelingDelay": 1.8,
     #     "BackgroundSuppression": False,
@@ -86,10 +86,10 @@ IntendedFor = {
     #     "RepetitionTimePreparation": 4.25,
     #     "VascularCrushing": False,
     #     "AcquisitionVoxelSize": [2.5, 2.5, 2.5]    
-    # },
-    # m0 : {"AcquisitionVoxelSize": [2.5, 2.5, 2.5],
+     },
+     fmap_ap_bold : {"PhaseEncodingDirection": "j" }
     #       "RepetitionTimePreparation": 4.25}
-# }
+      }
 
 
 # def AttachToSession():
