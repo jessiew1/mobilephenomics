@@ -6,6 +6,7 @@ parent: Study
 has_toc: false
 nav_order: 3
 ---
+# test
 ## Compensation 
 _Participants will be reimbursed for travel (transportation and parking) expenses incurred on scan day._
 _Payments will be made using virtual Greenphire ClinCards that may be treated as debit cards. The cards will be assigned and sent virtually to participants. Payments will be made on a weekly or monthly basis._
