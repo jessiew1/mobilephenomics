@@ -8,7 +8,8 @@
             15, 
             16,
             17, 
-            19
+            19,
+            20
         ],
         "start_date": "01-01-2022",
         "end_date": "08-01-2030",
@@ -279,26 +280,43 @@
              }
             },
             {"esm": {
-                "esm_type": 3,
-                "esm_title":"ESM Question 20",
-                "esm_instructions":"Are you alone right now?",
-                "esm_checkboxes":["Yes","No"],
-                "esm_submit":"Next",
-                "esm_expiration_threshold": 60,
-                "esm_trigger": "ESM20"
-                 }
-              },
-              {"esm": {
-                "esm_type": 3,
-                "esm_title":"ESM Question 21",
-                "esm_instructions":"If you selected yes, who are you with right now? If you selected no, you can skip this question.",
-                "esm_checkboxes":["Parent","Sibling", "Friend", "Classmate", "Teacher", "Other adults I know", "Peers I know", "Strangers", "Significant other"],
-                "esm_submit":"Next",
-                "esm_expiration_threshold": 60,
-                "esm_trigger": "ESM21"
-                 }
-              }
-        ]},
+              "esm_type": 5,
+              "esm_title":"ESM Question 20",
+              "esm_instructions":"Are you alone right now?",
+              "esm_quick_answers": [
+                  "Yes",
+                  "No" ],
+              "esm_submit":"Next",
+              "esm_expiration_threshold": 60,
+              "esm_trigger": "ESM20",
+              "esm_flows": [
+                  {"user_answer": "Yes",
+                      "next_esm": {
+                          "esm": {
+                              "esm_instructions": "Thank you for the answer!",
+                              "esm_submit": "OK",
+                              "esm_trigger": "ESM 20.1"
+                          }
+                      }
+                  },
+                  {"user_answer": "No",
+                      "next_esm": {
+                          "esm": {
+                              "esm_type": 3,
+                              "esm_title":"ESM Question 21",
+                              "esm_instructions":"Who are you with right now?",
+                              "esm_checkboxes":["Parent","Sibling", "Friend", "Classmate", "Teacher", "Other adults I know", "Peers I know", "Strangers", "Significant other"],
+                              "esm_submit":"Next",
+                              "esm_expiration_threshold": 60,
+                              "esm_trigger": "ESM21"
+                          }
+                      }
+                  }
+              ]
+          }
+      }
+  ]
+},
 {"schedule_id": "morning_esm",
     "hours": [
         9
