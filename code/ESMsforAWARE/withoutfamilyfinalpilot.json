@@ -291,7 +291,7 @@
               {"esm": {
                 "esm_type": 3,
                 "esm_title":"ESM Question 21",
-                "esm_instructions":"Who are you with right now?",
+                "esm_instructions":"If you selected yes, who are you with right now? If you selected no, you can skip this question.",
                 "esm_checkboxes":["Parent","Sibling", "Friend", "Classmate", "Teacher", "Other adults I know", "Peers I know", "Strangers", "Significant other"],
                 "esm_submit":"Next",
                 "esm_expiration_threshold": 60,
