@@ -320,7 +320,7 @@
 },
 {"schedule_id": "morning_esm",
     "hours": [
-        9
+        8
     ],
     "start_date": "01-01-2022",
     "end_date": "08-01-2030",
