@@ -331,7 +331,7 @@
     "esms": [
         {
             "esm": {
-                "esm_type":1,                  
+                "esm_type":9,                  
       "esm_title":"ESM Question 22",
       "esm_instructions":"Yesterday, how many bottles of beer did you consume?",
       "esm_submit":"Next",
@@ -339,7 +339,7 @@
        }
     }, 
     {"esm": {
-      "esm_type":1,                  
+      "esm_type":9,                  
       "esm_title":"ESM Question 23",
       "esm_instructions":"Yesterday, how many shots of liquor did you consume?",
       "esm_submit":"Next",
@@ -347,7 +347,7 @@
        }
     },
     {"esm": {
-      "esm_type":1,                  
+      "esm_type":9,                  
       "esm_title":"ESM Question 24",
       "esm_instructions":"Yesterday, how many glasses of wine did you consume?",
       "esm_submit":"Next",
@@ -383,16 +383,22 @@
        }
      },
      {"esm": {
-      "esm_type": 1,
+      "esm_type": 6,
       "esm_title":"ESM Sleep 3",
-      "esm_instructions":"How long did it take you to fall asleep once you closed your eyes?",
+      "esm_instructions":"How long did it take you to fall asleep once you closed your eyes? (in minutes)",
       "esm_submit":"Next",
+      "esm_scale_max":240,                   
+      "esm_scale_min":0,                     
+      "esm_scale_start":50,                 
+      "esm_scale_max_label":"240 minutes/4 hours",       
+      "esm_scale_min_label":"0 minutes",          
+      "esm_scale_step":1,  
       "esm_expiration_threshold": 60,
       "esm_trigger": "ESM28"
       }
     },
     {"esm": {
-     "esm_type": 1,
+     "esm_type": 9,
      "esm_title":"ESM Sleep 4",
      "esm_instructions":"How many times did you wake up, not counting your final awakening?",
      "esm_submit":"Next",
@@ -401,10 +407,16 @@
        }
     },
     {"esm": {
-      "esm_type": 1,
+      "esm_type": 6,
       "esm_title":"ESM Sleep 5",
-      "esm_instructions":"In total, how long did these awakenings last?",
+      "esm_instructions":"In total, how long did these awakenings last? (in minutes)",
       "esm_submit":"Next",
+      "esm_scale_max":240,                   
+      "esm_scale_min":0,                     
+      "esm_scale_start":50,                 
+      "esm_scale_max_label":"240 minutes/4 hours",       
+      "esm_scale_min_label":"0 minutes",          
+      "esm_scale_step":1,  
       "esm_expiration_threshold": 60,
       "esm_trigger": "ESM30"
        }  
@@ -428,7 +440,7 @@
        } 
     },
     {"esm": {
-      "esm_type": 1,
+      "esm_type": 9,
       "esm_title":"ESM Sleep 8",
       "esm_instructions":"About how many hours did you actually sleep?",
       "esm_submit":"Next",
