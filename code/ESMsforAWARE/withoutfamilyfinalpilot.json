@@ -356,19 +356,22 @@
      }
   },
   {"esm": {
-    "esm_type": 3,
-    "esm_title":"ESM Question 25",
-    "esm_instructions":"Did you consume cannabis/weed/marijuana yesterday?",
-    "esm_checkboxes":["Yes","No"],
-    "esm_submit":"Next",
-    "esm_expiration_threshold": 60,
-    "esm_trigger": "ESM25"
-     }
+    "esm_type": 2,
+      "esm_title":"ESM Question 25",
+      "esm_instructions":"Did you consume cannabis/weed/marijuana yesterday?",
+      "esm_radios": [
+        "Yes",
+        "No"
+    ],
+      "esm_submit":"Next",
+      "esm_expiration_threshold": 60,
+      "esm_trigger": "ESM25"
+       }
   },
   {"esm": {
       "esm_type": 1,
       "esm_title":"ESM Sleep 1",
-      "esm_instructions":"About what time did you go to bed last night (regardless of the time you actually fell asleep)? Please use HH:MM format in your answer",
+      "esm_instructions":"About what time did you go to bed last night (regardless of the time you actually fell asleep)? Please use the HH:MMam or HH:MM pm format in your answer. For example, if you fell asleep at 1 in the morning, enter 1:00am.",
       "esm_submit":"Next",
       "esm_expiration_threshold": 60,
       "esm_trigger": "ESM26"
@@ -377,7 +380,7 @@
    {"esm": {
      "esm_type": 1,
      "esm_title":"ESM Sleep 2",
-     "esm_instructions":"What time did you close your eyes to try to go to sleep? Please use HH:MM format in your answer",
+     "esm_instructions":"What time did you close your eyes to try to go to sleep? Please use the HH:MMam or HH:MM pm format in your answer. For example, if you fell asleep at 1 in the morning, enter 1:00am.",
      "esm_submit":"Next",
      "esm_expiration_threshold": 60,
      "esm_trigger": "ESM27"
@@ -391,7 +394,7 @@
     "esm_scale_max":240,                   
     "esm_scale_min":0,                     
     "esm_scale_start":50,                 
-    "esm_scale_max_label":"240 minutes/4 hours",       
+    "esm_scale_max_label":"240 minutes (4 hours)",       
     "esm_scale_min_label":"0 minutes",          
     "esm_scale_step":1,  
     "esm_expiration_threshold": 60,
@@ -414,7 +417,7 @@
     "esm_scale_max":240,                   
     "esm_scale_min":0,                     
     "esm_scale_start":50,                 
-    "esm_scale_max_label":"240 minutes/4 hours",       
+    "esm_scale_max_label":"240 minutes (4 hours)",       
     "esm_scale_min_label":"0 minutes",          
     "esm_scale_step":1,  
     "esm_submit":"Next",
@@ -425,7 +428,7 @@
   {"esm": {
     "esm_type": 1,
     "esm_title":"ESM Sleep 6",
-    "esm_instructions":"What time was your final awakening? Please use HH:MM format in your answer",
+    "esm_instructions":"What time was your final awakening? Please use the HH:MMam or HH:MM pm format in your answer. For example, if you fell asleep at 1 in the morning, enter 1:00am.",
     "esm_submit":"Next",
     "esm_expiration_threshold": 60,
     "esm_trigger": "ESM31"
@@ -434,7 +437,7 @@
   {"esm": {
     "esm_type": 1,
     "esm_title":"ESM Sleep 7",
-    "esm_instructions":"What time did you get out of bed for the day? Please use HH:MM format in your answer",
+    "esm_instructions":"What time did you get out of bed for the day? Please use the HH:MMam or HH:MM pm format in your answer. For example, if you fell asleep at 1 in the morning, enter 1:00am.",
     "esm_submit":"Next",
     "esm_expiration_threshold": 60,
     "esm_trigger": "ESM32"
@@ -474,10 +477,12 @@
      } 
   },
   {"esm": {
-    "esm_type": 3,
+    "esm_type": 2,
     "esm_title":"ESM Sleep 11",
     "esm_instructions":"Did you take sleeping pills or anything else to help you sleep last night?",
-    "esm_checkboxes":["Yes","No"],
+    "esm_radios": [
+      "Yes",
+      "No"],
     "esm_submit":"Next",
     "esm_expiration_threshold": 60,
     "esm_trigger": "ESM36"
