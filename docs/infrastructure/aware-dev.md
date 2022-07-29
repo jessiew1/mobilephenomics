@@ -12,6 +12,6 @@ In order to collect passive data, some machine in the cloud needs to be running 
 To access, first make sure you're on the [PMACS VPN](https://www.med.upenn.edu/dart/assets/user-content/documents/pmacs-vpn-mac-os-automated-install-and-configuration-(preferred).pdf), then use ssh:
 
 ```shell
-ssh -y ttapera@aware-dev.pmacs.edu
+ssh -y username@aware-dev.pmacs.edu
 ```
 <!-- TODO Create a project folder on PMACS -->
