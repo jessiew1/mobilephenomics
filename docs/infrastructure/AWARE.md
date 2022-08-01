@@ -4,7 +4,7 @@ title: AWARE
 has_children: false
 parent: Technical Infrastructure
 has_toc: false
-nav_order: 1
+nav_order: 2
 ---
 # The AWARE Framework
 ---
