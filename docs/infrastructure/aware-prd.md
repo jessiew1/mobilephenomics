@@ -21,12 +21,10 @@ ssh -y username@aware-prd.pmacs.upenn.edu
 The PHP files that manage the app are generally found in `/var/www/html/application`. You can always check the logs for up to date runtime information in `/var/log/httpd`. Generally,
 the AWARE app consists of a database, a backend, and a frontend. The database we chose is [MariaDB](https://mariadb.com/), but is effectively identical to MySQL. The backend, as mentioned,
 is a PHP web application, and the frontend is the AWARE dashboard. There's not much web app programming experience in PennLINC, so we outsourced our
-knowledge. Read on to learn who to talk to when something goes wrong or needs to be changed...
+knowledge.
 
-## FAQ (I want to...)
-
-### I want to give someone access to `aware-prd`
-
-Generally, you should reach out to Rachel Rawlings from PMACS for access & permissions to `aware-prd`: <a href="mailto:rrache@upenn.edu">rrache@upenn.edu</a>
+Usually, you should reach out to Rachel Rawlings from PMACS for access & permissions to `aware-prd`: <a href="mailto:rrache@upenn.edu">rrache@upenn.edu</a>
 
 You should also flag the PMACS database team: <a href="mailto:pmacs-sys-db@lists.upenn.edu">pmacs-sys-db@lists.upenn.edu</a>
+
+For help with the AWARE app itself, reach out to Garrick Sherman from Lyle Ungar's group: <a href="mailto:garricks@sas.upenn.edu">garricks@sas.upenn.edu</a>

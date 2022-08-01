@@ -11,4 +11,4 @@ You can find out more about our technological infrastructure here.
 
 Hover over the icons in this schematic to learn more.
 
-<img src="/mobilephenomics/assets/drawio/infrastructure.svg" alt="aware schematic"> 
+<img src="/mobilephenomics/assets/drawio/infrastructure.png" alt="aware schematic"> 
