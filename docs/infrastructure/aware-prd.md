@@ -28,3 +28,12 @@ Usually, you should reach out to Rachel Rawlings from PMACS for access & permiss
 You should also flag the PMACS database team: <a href="mailto:pmacs-sys-db@lists.upenn.edu">pmacs-sys-db@lists.upenn.edu</a>
 
 For help with the AWARE app itself, reach out to Garrick Sherman from Lyle Ungar's group: <a href="mailto:garricks@sas.upenn.edu">garricks@sas.upenn.edu</a>
+
+
+You can open a database from a certain participant with all their information/responses like so: 
+
+```shell
+use Mehta_26; # example dataset
+show tables;
+select * from esms;
+```
