@@ -29,8 +29,17 @@ You should also flag the PMACS database team: <a href="mailto:pmacs-sys-db@lists
 
 For help with the AWARE app itself, reach out to Garrick Sherman from Lyle Ungar's group: <a href="mailto:garricks@sas.upenn.edu">garricks@sas.upenn.edu</a>
 
+# Accessing MariaDB Databases
 
-You can open a database from a certain participant with all their information/responses like so: 
+Log in to PMACS and access the database password like so: 
+`grep password /var/www/html/application/config/database.php`
+
+You can then access the database with: 
+`mariadb –h localhost –u awareuser –p`
+
+Then when prompted with a password, paste in the password you copied.
+
+You can open a database from a certain participant with all their information/responses like this: 
 
 ```shell
 use Mehta_26; # example dataset
