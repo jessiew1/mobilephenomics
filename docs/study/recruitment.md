@@ -27,3 +27,12 @@ Target: 2000 participants along with parents of minor participants to participat
 - Non-psychiatric medical disorders that may impact brain function or visual acuity
 - Lack of a mobile device with capabilities to complete study procedures
 - Acute intoxication with alcohol or other substances based on clinical assessment, subject report, or results of laboratory testing
+
+
+## Important documents
+1. Initial BBLIDs for recruitment available on Saturn at: /Volumes/Coordinators/Protocols/TED_PROTOCOLS/MOBILE_PROTOCOL_844353/Instructions:Participant Communications/Initial_MP_list.csv
+2. Participant communications: /Volumes/Coordinators/Protocols/TED_PROTOCOLS/MOBILE_PROTOCOL_844353/Instructions:Participant Communications
+3. Latest study documents as of 8/8/22: /Volumes/Coordinators/Protocols/TED_PROTOCOLS/MOBILE_PROTOCOL_844353/Study_Docs_Current/v6
+4. Android recruitment instructions: /Volumes/Coordinators/Protocols/TED_PROTOCOLS/MOBILE_PROTOCOL_844353/Android_Instructions/ANDROID INSTRUCTIONS.docx
+
+
