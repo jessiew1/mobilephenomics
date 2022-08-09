@@ -231,22 +231,8 @@ You can chain ESMs in different ways to create a flow of questions (e.g. if the 
 
 ### Putting It Together
 
-There's an example of a full ESM [here]().
+There's an example of a full ESM [here](https://github.com/PennLINC/mobilephenomics/blob/master/code/ESMsforAWARE/withoutfamilyfinalpilot.json).
 
 Once you've developed an ESM config, simply upload it to Github (or some other service that allows you to share raw text), and then, using the "Raw" button in Github, copy the URL to the raw text. Go to the "Researcher" page in AWARE, and edit sampling to pull up your plugins. Scroll down to your plugin, check the status box to turn it on, and in the field `Plugin ios esm config url`, paste in the URL to your ESM config. Make sure to save your changes and reload the page (and notify any participants to re-sync their study).
 
 --------------------------
-
-## Data Pulls
-
-The data collected by AWARE is stored on an Amazon EC2 instance in a MySQL database, which can be accessed using [these instructions]().
-
-<!--
-#TODO: add link above
--->
-
-In order to analyse the data on CUBIC using RAPIDS, we use a number of scripts. 
-
-<!--
-#TODO: Scripting
--->
