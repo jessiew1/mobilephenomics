@@ -18,7 +18,7 @@ In short, AWARE is a software suite that handles the collection of mobile data. 
 AWARE presents to participants (users) as a mobile app that can be installed on participants’ devices by sharing a URL. Once installed, the app monitors different data streams depending on what the _study_ has configured.
 
 ## Studies & The AWARE Dashboard
-Studies are configured by developers in the lab on the PMACS AWARE server. Once you’ve approved a project, you will be able to access the AWARE _site_. This will be the management home of your project that you can access online — the _AWARE Dashboard_. In our case, the URL we were able to visit for managing studies is https://aware-dev.pmacs.upenn.edu/index.php. Once your site is online, you may sign in with (in our case) a Google account, which will take you to this landing page:
+Studies are configured by developers in the lab on the PMACS AWARE server. Once you’ve approved a project, you will be able to access the AWARE _site_. This will be the management home of your project that you can access online — the _AWARE Dashboard_. In our case, the URL we were able to visit for managing studies is https://aware-dev.pmacs.upenn.edu. Once your site is online, you may sign in with (in our case) a Google account, which will take you to this landing page:
 <img src="/mobilephenomics/assets/images/aware_site.png" alt="Aware site"> 
 
 ## Creating Study
