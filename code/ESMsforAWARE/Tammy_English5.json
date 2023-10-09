@@ -374,7 +374,7 @@
     
     
   {
-      "schedule_id": "Neighbor_Study_Survey",
+      "schedule_id": "Neighbor_Exit_Study_Survey",
       "context":["ACTION_AWARE_SIGNIFICANT_MOTION_START"],
       "context":["ACTION_AWARE_SIGNIFICANT_MOTION_STOP"],
       "start_date": "10-01-2023",
