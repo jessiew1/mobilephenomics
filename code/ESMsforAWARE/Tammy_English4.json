@@ -1,0 +1,498 @@
+[
+  {
+      "schedule_id": "Study_Survey",
+      "hours": [
+        
+      ],
+      "start_date": "10-01-2023",
+      "end_date": "08-01-2030",
+      "expiration": 30,
+      "randomize": 5,
+      "notification_title": "Study Survey",
+      "notification_body": "Please answer the following questions about your emotions and the situation you 
+	were in at the time of the prompt.",
+      "esms": [{"esm": {
+          "esm_type":6,
+          "esm_scale_max":7,                   
+          "esm_scale_min":1,                     
+          "esm_scale_start":1,                 
+          "esm_scale_max_label":"Extremely,       
+          "esm_scale_min_label":"Not at all",          
+          "esm_scale_step":1,                   
+          "esm_title":"ESM Question 1",
+          "esm_instructions":"I felt happy",
+          "esm_submit":"Next",
+          "esm_trigger": "ESM1"
+            }
+         },
+         {"esm": {
+          "esm_type":6,
+          "esm_scale_max":7,                   
+          "esm_scale_min":1,                     
+          "esm_scale_start":1,                 
+          "esm_scale_max_label":"Extremely",       
+          "esm_scale_min_label":"Not at all",          
+          "esm_scale_step":1,                   
+          "esm_title":"ESM Question 2",
+          "esm_instructions":"I felt excited",
+          "esm_submit":"Next",
+          "esm_trigger": "ESM2"
+           }
+         },
+         {"esm": {
+          "esm_type":6,
+          "esm_scale_max":7,                   
+          "esm_scale_min":1,                     
+          "esm_scale_start":1,                 
+          "esm_scale_max_label":"Extremely",       
+          "esm_scale_min_label":"Not at all",          
+          "esm_scale_step":1,                   
+          "esm_title":"ESM Question 3",
+          "esm_instructions":"I felt proud",
+          "esm_submit":"Next",
+          "esm_trigger": "ESM3"
+          }
+        },
+        {"esm": {
+          "esm_type":6,
+          "esm_scale_max":7,                   
+          "esm_scale_min":1,                     
+          "esm_scale_start":1,                 
+          "esm_scale_max_label":"Extremely",       
+          "esm_scale_min_label":"Not at all",          
+          "esm_scale_step":1,                   
+          "esm_title":"ESM Question 4",
+          "esm_instructions":"I felt supported",
+          "esm_submit":"Next",
+          "esm_trigger": "ESM4"
+           }
+        },
+        {"esm": {
+          "esm_type":6,
+          "esm_scale_max":7,                   
+          "esm_scale_min":1,                     
+          "esm_scale_start":1,                 
+          "esm_scale_max_label":"Extremely",       
+          "esm_scale_min_label":"Not at all",          
+          "esm_scale_step":1,                   
+          "esm_title":"ESM Question 5",
+          "esm_instructions":"I felt nervous",
+          "esm_submit":"Next",
+          "esm_trigger": "ESM5"
+           }  
+        },
+        {"esm": {
+          "esm_type":6,
+          "esm_scale_max":7,                   
+          "esm_scale_min":1,                     
+          "esm_scale_start":1,                 
+          "esm_scale_max_label":"Extremely",       
+          "esm_scale_min_label":"Not at all",          
+          "esm_scale_step":1,                   
+          "esm_title":"ESM Question 6",
+          "esm_instructions":"I felt irritated",
+          "esm_submit":"Next",
+          "esm_trigger": "ESM6"
+           } 
+        },
+        {"esm": {
+          "esm_type":6,
+          "esm_scale_max":7,                   
+          "esm_scale_min":1,                     
+          "esm_scale_start":1,                 
+          "esm_scale_max_label":"Extremely",       
+          "esm_scale_min_label":"Not at all",          
+          "esm_scale_step":1,                   
+          "esm_title":"ESM Question 7",
+          "esm_instructions":"I felt disgusted",
+          "esm_submit":"Next",
+          "esm_trigger": "ESM7"
+           }
+        },
+        {"esm": {
+          "esm_type":6,
+          "esm_scale_max":7,                   
+          "esm_scale_min":1,                     
+          "esm_scale_start":1,                 
+          "esm_scale_max_label":"Extremely",       
+          "esm_scale_min_label":"Not at all",          
+          "esm_scale_step":1,                   
+          "esm_title":"ESM Question 8",
+          "esm_instructions":"I felt lonely",
+          "esm_submit":"Next",
+          "esm_trigger": "ESM8"
+   
+         }
+        },
+          {"esm": {
+           "esm_type": 5,
+           "esm_quick_answers": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_instructions": "Were you alone at the time of the prompt?",
+                    "esm_submit": "OK",
+                    "esm_trigger": "ESM2"
+         }
+        },
+
+        {"esm": {
+        "esm_type": 3,
+        "esm_title":"ESM Question 3",
+        "esm_instructions":"Who were you interacting with at the time of the prompt?",
+        "esm_checkboxes":["no one", "romantic partner", "family member", "friend", "co-worker", "health    
+	professional", "acquaintance", "stranger", "pet"],
+        "esm_submit":"Next",
+        "esm_expiration_threshold": 60,
+        "esm_trigger": "ESM3"
+       }
+      },
+       {"esm": {
+        "esm_type": 3,
+        "esm_title":"ESM Question 4",
+        "esm_instructions":"What were you doing at the time of the prompt?",
+        "esm_checkboxes":["working", "volunteering", "conversation/socializing", "watching TV", "listening to 
+	music", "on my phone/computer", "eating/drinking", "exercising", "self-care", "errands/chores", 
+	"hobby", "commuting/transportation"],
+        "esm_submit":"Next",
+        "esm_expiration_threshold": 60,
+        "esm_trigger": "ESM4"
+       }
+    },
+     {"esm": {
+        "esm_type": 3,
+        "esm_title":"ESM Question 5",
+        "esm_instructions":"Where were you at the time of the prompt?",
+        "esm_checkboxes":["your home", "someone else’s home", "work/school", "store", "medical office", 
+	"business setting", "in transit", "outdoors"],
+        "esm_submit":"Next",
+        "esm_expiration_threshold": 60,
+        "esm_trigger": "ESM5"
+      }
+    },
+     {"esm": {
+      "esm_type": 1,
+      "esm_title":"ESM Question 6",
+      "esm_instructions":"What neighborhood were you in at the time of the prompt?",
+      "esm_submit":"Next",
+      "esm_expiration_threshold": 60,
+      "esm_trigger": "ESM6"
+      }
+    },
+    
+    {"esm": {
+      "esm_type":6,
+      "esm_scale_max":7,                   
+      "esm_scale_min":1,                     
+      "esm_scale_start":1,                 
+      "esm_scale_max_label":"Extremely",       
+      "esm_scale_min_label":"Not at all",          
+      "esm_scale_step":1,                   
+      "esm_title":"ESM Question 7",
+      "esm_instructions":"How familiar is the situation?",
+      "esm_submit":"Next",
+      "esm_trigger": "ESM7"
+       }
+      },
+    
+      {"esm": {
+      "esm_type":6,
+      "esm_scale_max":7,                   
+      "esm_scale_min":1,                     
+      "esm_scale_start":1,                 
+      "esm_scale_max_label":"Complete Control",       
+      "esm_scale_min_label":"None",          
+      "esm_scale_step":1,                   
+      "esm_title":"ESM Question 8",
+      "esm_instructions":"How much control do you have in the situation",
+      "esm_submit":"Next",
+      "esm_trigger": "ESM8"
+       }
+      },
+    
+      {"esm": {
+      "esm_type":6,
+      "esm_scale_max":7,                   
+      "esm_scale_min":1,                     
+      "esm_scale_start":1,                 
+      "esm_scale_max_label":"Extremely",       
+      "esm_scale_min_label":"Not at all",          
+      "esm_scale_step":1,                   
+      "esm_title":"ESM Question 9",
+      "esm_instructions":"How uncomfortable do you feel? ",
+      "esm_submit":"Next",
+      "esm_trigger": "ESM9"
+       }
+     },
+    
+      {"esm": {
+      "esm_type":6,
+      "esm_scale_max":7,                   
+      "esm_scale_min":1,                     
+      "esm_scale_start":1,                 
+      "esm_scale_max_label":"Extremely",       
+      "esm_scale_min_label":"Not at all",          
+      "esm_scale_step":1,                   
+      "esm_title":"ESM Question 10",
+      "esm_instructions":"How safe do you feel?  ",
+      "esm_submit":"Next",
+      "esm_trigger": "ESM10"
+       }
+     },
+    
+     {"esm": {
+      "esm_type":6,
+      "esm_scale_max":7,                   
+      "esm_scale_min":1,                     
+      "esm_scale_start":1,                 
+      "esm_scale_max_label":"Extremely",       
+      "esm_scale_min_label":"Not at all",          
+      "esm_scale_step":1,                   
+      "esm_title":"ESM Question 11",
+      "esm_instructions":"How much were you paying attention to your feelings? ",
+      "esm_submit":"Next",
+      "esm_trigger": "ESM11"
+       }
+     },
+     {"esm": {
+      "esm_type":6,
+      "esm_scale_max":7,                   
+      "esm_scale_min":1,                     
+      "esm_scale_start":1,                 
+      "esm_scale_max_label":"Extremely",       
+      "esm_scale_min_label":"Not at all",          
+      "esm_scale_step":1,                   
+      "esm_title":"ESM Question 12",
+      "esm_instructions":"How much were you trying to not let your feeling show?",
+      "esm_submit":"Next",
+      "esm_trigger": "ESM12"
+       }
+     },
+    
+      {"esm": {
+      "esm_type":6,
+      "esm_scale_max":7,                   
+      "esm_scale_min":1,                     
+      "esm_scale_start":1,                 
+      "esm_scale_max_label":"Extremely",       
+      "esm_scale_min_label":"Not at all",          
+      "esm_scale_step":1,                   
+      "esm_title":"ESM Question 13",
+      "esm_instructions":"How much do you feel like you belong? ",
+      "esm_submit":"Next",
+      "esm_trigger": "ESM13"
+       }
+     },
+    
+     {"esm": {
+      "esm_type":6,
+      "esm_scale_max":7,                   
+      "esm_scale_min":1,                     
+      "esm_scale_start":1,                 
+      "esm_scale_max_label":"Extremely",       
+      "esm_scale_min_label":"Not at all",          
+      "esm_scale_step":1,                   
+      "esm_title":"ESM Question 14",
+      "esm_instructions":"How desirable is the neighborhood you are in now?",
+      "esm_submit":"Next",
+      "esm_trigger": "ESM14"
+       }
+     },
+    
+     {"esm": {
+      "esm_type": 3,
+      "esm_title":"ESM Question 15",
+      "esm_instructions":"What is the age composition of the neighborhood you are in now?",
+      "esm_checkboxes":["children", "teens", "young adults", "middle-aged adults", "older adults"],
+      "esm_submit":"Next",
+      "esm_expiration_threshold": 60,
+      "esm_trigger": "ESM15"
+       }
+    },
+      
+     {"esm": {
+      "esm_type": 3,
+      "esm_title":"ESM Question 16",
+      "esm_instructions":"What is the racial composition of the neighborhood you are in now?",
+      "esm_checkboxes": ["Asian", "Black", "Latino", "White", "Other"],
+      "esm_submit":"Next",
+      "esm_expiration_threshold": 60,
+      "esm_trigger": "ESM16"
+       }
+  
+      }]
+   }]
+
+ },
+
+{"schedule_id": "morning_esm",
+  "hours": [
+      9
+  ],
+  "start_date": "01-01-2022",
+  "end_date": "08-01-2030",
+  "expiration": 30,
+  "randomize": 5,
+  "notification_title": "Morning survey!",
+  "notification_body": "Don't forget to fill out your morning survey!",
+  "esms": [
+      {
+          "esm": {
+              "esm_type":9,                  
+    "esm_title":"ESM Question 22",
+    "esm_instructions":"Yesterday, how many bottles of beer did you consume?",
+    "esm_submit":"Next",
+    "esm_trigger": "ESM22"
+     }
+  }, 
+  {"esm": {
+    "esm_type":9,                  
+    "esm_title":"ESM Question 23",
+    "esm_instructions":"Yesterday, how many shots of liquor did you consume?",
+    "esm_submit":"Next",
+    "esm_trigger": "ESM23"
+     }
+  },
+  {"esm": {
+    "esm_type":9,                  
+    "esm_title":"ESM Question 24",
+    "esm_instructions":"Yesterday, how many glasses of wine did you consume?",
+    "esm_submit":"Next",
+    "esm_trigger": "ESM24"
+     }
+  },
+  {"esm": {
+    "esm_type": 2,
+      "esm_title":"ESM Question 25",
+      "esm_instructions":"Did you consume cannabis/weed/marijuana yesterday?",
+      "esm_radios": [
+        "Yes",
+        "No"
+    ],
+      "esm_submit":"Next",
+      "esm_expiration_threshold": 60,
+      "esm_trigger": "ESM25"
+       }
+  },
+  {"esm": {
+      "esm_type": 7,
+      "esm_title":"ESM Sleep 1",
+      "esm_instructions":"About what time did you go to bed last night (regardless of the time you actually fell asleep)?",
+      "esm_submit":"Next",
+      "esm_expiration_threshold": 60,
+      "esm_trigger": "ESM26"
+      }
+   },
+   {"esm": {
+     "esm_type": 7,
+     "esm_title":"ESM Sleep 2",
+     "esm_instructions":"What time did you close your eyes to try to go to sleep?",
+     "esm_submit":"Next",
+     "esm_expiration_threshold": 60,
+     "esm_trigger": "ESM27"
+     }
+   },
+   {"esm": {
+    "esm_type": 6,
+    "esm_title":"ESM Sleep 3",
+    "esm_instructions":"How long did it take you to fall asleep once you closed your eyes? (in minutes)",
+    "esm_submit":"Next",
+    "esm_scale_max":240,                   
+    "esm_scale_min":0,                     
+    "esm_scale_start":50,                 
+    "esm_scale_max_label":"240 minutes (4 hours)",       
+    "esm_scale_min_label":"0 minutes",          
+    "esm_scale_step":1,  
+    "esm_expiration_threshold": 60,
+    "esm_trigger": "ESM28"
+    }
+  },
+  {"esm": {
+   "esm_type": 9,
+   "esm_title":"ESM Sleep 4",
+   "esm_instructions":"How many times did you wake up, not counting your final awakening?",
+   "esm_submit":"Next",
+   "esm_expiration_threshold": 60,
+   "esm_trigger": "ESM29"
+     }
+  },
+  {"esm": {
+    "esm_type": 6,
+    "esm_title":"ESM Sleep 5",
+    "esm_instructions":"In total, how long did these awakenings last? (in minutes)",
+    "esm_scale_max":240,                   
+    "esm_scale_min":0,                     
+    "esm_scale_start":50,                 
+    "esm_scale_max_label":"240 minutes (4 hours)",       
+    "esm_scale_min_label":"0 minutes",          
+    "esm_scale_step":1,  
+    "esm_submit":"Next",
+    "esm_expiration_threshold": 60,
+    "esm_trigger": "ESM30"
+     }  
+  },
+  {"esm": {
+    "esm_type": 7,
+    "esm_title":"ESM Sleep 6",
+    "esm_instructions":"What time was your final awakening? Please use the HH:MMam or HH:MM pm format in your answer. For example, if you fell asleep at 1 in the morning, enter 1:00am.",
+    "esm_submit":"Next",
+    "esm_expiration_threshold": 60,
+    "esm_trigger": "ESM31"
+     }  
+  },
+  {"esm": {
+    "esm_type": 7,
+    "esm_title":"ESM Sleep 7",
+    "esm_instructions":"What time did you get out of bed for the day? Please use the HH:MMam or HH:MM pm format in your answer. For example, if you fell asleep at 1 in the morning, enter 1:00am.",
+    "esm_submit":"Next",
+    "esm_expiration_threshold": 60,
+    "esm_trigger": "ESM32"
+     } 
+  },
+  {"esm": {
+    "esm_type": 9,
+    "esm_title":"ESM Sleep 8",
+    "esm_instructions":"About how many hours did you actually sleep?",
+    "esm_submit":"Next",
+    "esm_expiration_threshold": 60,
+    "esm_trigger": "ESM33"
+     }
+  },
+  {"esm": {
+    "esm_type": 4,
+    "esm_likert_max":5,
+    "esm_likert_max_label": "Very Good",
+    "esm_likert_min_label": "Very Poor",
+    "esm_likert_step": 1,
+    "esm_title": "ESM Sleep 9",
+    "esm_instructions": "How would you rate the quality of your sleep?",
+    "esm_submit": "Next",
+    "esm_trigger": "ESM34"
+     } 
+  },
+  {"esm": {
+     "esm_type": 4,
+     "esm_likert_max":5,
+     "esm_likert_max_label": "Fully Refreshed",
+     "esm_likert_min_label": "Not at All Refreshed",
+     "esm_likert_step": 1,
+     "esm_title": "ESM Sleep 10",
+     "esm_instructions": "How refreshed did you feel when you woke up?",
+     "esm_submit": "Next",
+     "esm_trigger": "ESM35"
+     } 
+  },
+  {"esm": {
+    "esm_type": 2,
+    "esm_title":"ESM Sleep 11",
+    "esm_instructions":"Did you take sleeping pills or anything else to help you sleep last night?",
+    "esm_radios": [
+      "Yes",
+      "No"],
+    "esm_submit":"Next",
+    "esm_expiration_threshold": 60,
+    "esm_trigger": "ESM36"
+     }
+        
+    }]
+}]
