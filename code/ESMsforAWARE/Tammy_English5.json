@@ -137,7 +137,7 @@
                           "esm": {
                               "esm_instructions": "Thank you for the answer!",
                               "esm_submit": "OK",
-                              "esm_trigger": "ESM 9.1"
+                              "esm_trigger": "ESM11"
                           }
                       }
                   },
@@ -347,8 +347,8 @@
                       "next_esm": {
                           "esm": {
                               "esm_instructions": "Thank you for the answer!",
-                              "esm_submit": "OK",
-                              "esm_trigger": "ESM 20.1"
+                              "esm_submit": "Next",
+                              "esm_trigger": "ESM11"
                           }
                       }
                   },
