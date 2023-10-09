@@ -1,9 +1,7 @@
 [
   {
       "schedule_id": "Study_Survey",
-      "hours": [
-        
-      ],
+      "hours": [13,14 ],
       "start_date": "10-01-2023",
       "end_date": "08-01-2030",
       "expiration": 30,
