@@ -1,7 +1,9 @@
 [
   {
       "schedule_id": "Study_Survey",
-      "hours": [15],
+      "hours": [15,16,18,20],
+       "context":["ACTION_AWARE_SIGNIFICANT_MOTION_STARTED"],
+      "context":["ACTION_AWARE_SIGNIFICANT_MOTION_START"],
       "context":["ACTION_AWARE_SIGNIFICANT_MOTION_STOP"],
       "start_date": "10-01-2023",
       "end_date": "08-01-2030",
