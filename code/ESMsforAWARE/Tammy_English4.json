@@ -1,7 +1,8 @@
 [
   {
       "schedule_id": "Study_Survey",
-      "hours": [13,14 ],
+      "trigger": "location_change",
+      "min_distance": 500,  // Trigger after moving 500 meters
       "start_date": "10-01-2023",
       "end_date": "08-01-2030",
       "expiration": 30,
