@@ -5,7 +5,7 @@
       "start_date": "10-01-2023",
       "end_date": "08-01-2030",
       "expiration": 30,
-      "randomize": 180,
+      "randomize": 120,
       "notification_title": "Random Study Survey",
       "notification_body": "Please answer the following questions about your emotions and the situation you were in at the time of the prompt.",
       "esms": [
