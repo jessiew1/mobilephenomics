@@ -511,7 +511,7 @@
                           "esm": {
                               "esm_instructions": "Thank you for the answer!",
                               "esm_submit": "OK",
-                              "esm_trigger": "ESM 9.1"
+                              "esm_trigger": "ESM11"
                           }
                       }
                   },
@@ -748,7 +748,7 @@
       "end_date": "08-01-2030",
       "expiration": 30,
       "randomize": 90,
-      "notification_title": "Neighbor Exit Study Survey",
+      "notification_title": "Ambient Noise Study Survey",
       "notification_body": "Please answer the following questions about your emotions and the situation you were in at the time of the prompt.",
       "esms": [{"esm": {
           "esm_type":6,
