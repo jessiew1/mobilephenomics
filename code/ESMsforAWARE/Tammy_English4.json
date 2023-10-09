@@ -139,8 +139,7 @@
         "esm_type": 3,
         "esm_title":"ESM Question 3",
         "esm_instructions":"Who were you interacting with at the time of the prompt?",
-        "esm_checkboxes":["no one", "romantic partner", "family member", "friend", "co-worker", "health    
-	professional", "acquaintance", "stranger", "pet"],
+        "esm_checkboxes":["no one", "romantic partner", "family member", "friend", "co-worker", "health professional", "acquaintance", "stranger", "pet"],
         "esm_submit":"Next",
         "esm_expiration_threshold": 60,
         "esm_trigger": "ESM3"
@@ -150,9 +149,7 @@
         "esm_type": 3,
         "esm_title":"ESM Question 4",
         "esm_instructions":"What were you doing at the time of the prompt?",
-        "esm_checkboxes":["working", "volunteering", "conversation/socializing", "watching TV", "listening to 
-	music", "on my phone/computer", "eating/drinking", "exercising", "self-care", "errands/chores", 
-	"hobby", "commuting/transportation"],
+        "esm_checkboxes":["working", "volunteering", "conversation/socializing", "watching TV", "listening to music", "on my phone/computer", "eating/drinking", "exercising", "self-care", "errands/chores", "hobby", "commuting/transportation"],
         "esm_submit":"Next",
         "esm_expiration_threshold": 60,
         "esm_trigger": "ESM4"
@@ -162,8 +159,7 @@
         "esm_type": 3,
         "esm_title":"ESM Question 5",
         "esm_instructions":"Where were you at the time of the prompt?",
-        "esm_checkboxes":["your home", "someone else’s home", "work/school", "store", "medical office", 
-	"business setting", "in transit", "outdoors"],
+        "esm_checkboxes":["your home", "someone else’s home", "work/school", "store", "medical office","business setting", "in transit", "outdoors"],
         "esm_submit":"Next",
         "esm_expiration_threshold": 60,
         "esm_trigger": "ESM5"
