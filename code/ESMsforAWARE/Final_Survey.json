@@ -1,0 +1,192 @@
+{
+  "schedule": {
+    "schedule_id": "Study Survey",
+    "hours": [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23],
+    "start_date": "10-01-2023",
+    "end_date": "08-01-2030",
+    "expiration": 45,
+    "randomize": 120,
+    "notification_title": "Random Study Survey",
+    "notification_body": "Please answer the following questions about your emotions and the situation you were in at the time of the prompt"
+  },
+  "esms": [
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "I felt happy.",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "I felt excited.",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "I felt proud.",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "I felt supported.",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "I felt nervous.",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "I felt irritated.",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "I felt disgusted.",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "I felt lonely.",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 2,
+        "esm_title": "Were you alone at the time of the prompt?",
+        "esm_instructions": "Please select one.",
+        "esm_submit": "Next",
+        "esm_radios": ["Yes", "No"]
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 2,
+        "esm_title": "Who were you interacting with at the time of the prompt?",
+        "esm_instructions": "Please select one.",
+        "esm_submit": "Next",
+        "esm_radios": ["no one", "romantic partner", "family member", "friend", "co-worker", "health professional", "acquaintance", "stranger", "pet"]
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 3,
+        "esm_title": "What were you doing at the time of the prompt?",
+        "esm_instructions": "Please select all that apply.",
+        "esm_submit": "Next",
+        "esm_checkboxes": ["working", "volunteering", "conversation/socializing", "watching TV", "listening to music", "on my phone/computer", "eating/drinking", "exercising", "self-care", "errands/chores", "hobby", "commuting/transportation"]
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 2,
+        "esm_title": "Where were you at the time of the prompt?",
+        "esm_instructions": "Please select one.",
+        "esm_submit": "Next",
+        "esm_radios": ["your home", "someone else’s home", "work/school", "store", "medical office", "business setting", "in transit", "outdoors"]
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 1,
+        "esm_title": "What neighborhood were you in at the time of the prompt?",
+        "esm_instructions": "Please type in the neighborhood.",
+        "esm_submit": "Next"
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 4,
+        "esm_title": "How desirable is the neighborhood you are in now?",
+        "esm_instructions": "Please select an item.",
+        "esm_submit": "Next",
+        "esm_likert_max": 7,
+        "esm_likert_max_label": "Extremely",
+        "esm_likert_min_label": "Not at all",
+        "esm_likert_step": 1
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 2,
+        "esm_title": "What is the age composition of the neighborhood you are in now?",
+        "esm_instructions": "Please select one that best represents the majority.",
+        "esm_submit": "Next",
+        "esm_radios": ["children", "teens", "young adults", "middle-aged adults", "older adults"]
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 3,
+        "esm_title": "Which racial groups are present in the neighborhood you are in now?",
+        "esm_instructions": "Please select all that apply.",
+        "esm_submit": "Next",
+        "esm_checkboxes": ["Asian", "Black", "Latino", "White", "Other"]
+      }
+    },
+    {
+      "esm": {
+        "esm_type": 1,
+        "esm_title": "Please enter the approximate percentage for each selected racial group.",
+        "esm_instructions": "Format: Asian - 40%, Black - 30%, etc.",
+        "esm_submit": "Next"
+      }
+    }
+  ]
+}
